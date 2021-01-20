@@ -1,0 +1,3788 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5efc4b2979684e118a415ba06004b0a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5efc4b2979684e118a415ba06004b0a0" ></div>
+        
+</body>
+<script>    
+    
+            var map_5efc4b2979684e118a415ba06004b0a0 = L.map(
+                "map_5efc4b2979684e118a415ba06004b0a0",
+                {
+                    center: [-27.47130457718121, 153.02508301342283],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_55a051d6bfa54375b0ce5ed52cf6bc09 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var marker_52fb5463154a405b872b08348f49cc2d = L.marker(
+                [-27.482279, 153.028723],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_27030e7397304aceb23e974eef0da658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_52fb5463154a405b872b08348f49cc2d.setIcon(icon_27030e7397304aceb23e974eef0da658);
+        
+    
+        var popup_21eb7e6ed262449aa3a97269aaf8489b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d604cb1731c5401e84fc23882feb2ffa = $(`<div id="html_d604cb1731c5401e84fc23882feb2ffa" style="width: 100.0%; height: 100.0%;">122 - LOWER RIVER TCE / ELLIS ST</div>`)[0];
+            popup_21eb7e6ed262449aa3a97269aaf8489b.setContent(html_d604cb1731c5401e84fc23882feb2ffa);
+        
+
+        marker_52fb5463154a405b872b08348f49cc2d.bindPopup(popup_21eb7e6ed262449aa3a97269aaf8489b)
+        ;
+
+        
+    
+    
+            var marker_d460a371940f4618b12cd213f1ce8b0c = L.marker(
+                [-27.47059, 153.036046],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4699f0a60c5949958b67e7b243f8b72c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d460a371940f4618b12cd213f1ce8b0c.setIcon(icon_4699f0a60c5949958b67e7b243f8b72c);
+        
+    
+        var popup_d261297d5a1446199e87231b48b5ba7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45329a933ddd417f9c046869eabf569c = $(`<div id="html_45329a933ddd417f9c046869eabf569c" style="width: 100.0%; height: 100.0%;">91 - MAIN ST / DARRAGH ST</div>`)[0];
+            popup_d261297d5a1446199e87231b48b5ba7c.setContent(html_45329a933ddd417f9c046869eabf569c);
+        
+
+        marker_d460a371940f4618b12cd213f1ce8b0c.bindPopup(popup_d261297d5a1446199e87231b48b5ba7c)
+        ;
+
+        
+    
+    
+            var marker_94365df7a3454e07a01be648460f7c82 = L.marker(
+                [-27.474531, 153.042728],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_2763b5139ab9454f8cb18ae7c3792711 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_94365df7a3454e07a01be648460f7c82.setIcon(icon_2763b5139ab9454f8cb18ae7c3792711);
+        
+    
+        var popup_d19e0d38aad24b82a80ce82dbfeb4803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86272b2a9eec49acb657fb8608fff150 = $(`<div id="html_86272b2a9eec49acb657fb8608fff150" style="width: 100.0%; height: 100.0%;">88 - SYDNEY ST FERRY TERMINAL / PARK</div>`)[0];
+            popup_d19e0d38aad24b82a80ce82dbfeb4803.setContent(html_86272b2a9eec49acb657fb8608fff150);
+        
+
+        marker_94365df7a3454e07a01be648460f7c82.bindPopup(popup_d19e0d38aad24b82a80ce82dbfeb4803)
+        ;
+
+        
+    
+    
+            var marker_a4c9e6fa86e84411b6bba411a05fbbbc = L.marker(
+                [-27.461881, 153.046986],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_67bff29e7e6b40e59fc2882910c69507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4c9e6fa86e84411b6bba411a05fbbbc.setIcon(icon_67bff29e7e6b40e59fc2882910c69507);
+        
+    
+        var popup_724b54db41f844b6915c373bd62b04f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc57c76bcbd4b0188cfa8c743fd5fa1 = $(`<div id="html_3cc57c76bcbd4b0188cfa8c743fd5fa1" style="width: 100.0%; height: 100.0%;">75 - BROWNE ST / JAMES ST</div>`)[0];
+            popup_724b54db41f844b6915c373bd62b04f3.setContent(html_3cc57c76bcbd4b0188cfa8c743fd5fa1);
+        
+
+        marker_a4c9e6fa86e84411b6bba411a05fbbbc.bindPopup(popup_724b54db41f844b6915c373bd62b04f3)
+        ;
+
+        
+    
+    
+            var marker_85803bee5f6a4e34a1092f8a7d74ae32 = L.marker(
+                [-27.469658, 153.016696],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ee452f7145c44dda847ac5f6f369b5cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_85803bee5f6a4e34a1092f8a7d74ae32.setIcon(icon_ee452f7145c44dda847ac5f6f369b5cf);
+        
+    
+        var popup_7faf9085552a46a59eac810ce8243752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b0418ff579c4db98eac5473b28aa2e4 = $(`<div id="html_0b0418ff579c4db98eac5473b28aa2e4" style="width: 100.0%; height: 100.0%;">98 - KURILPA POINT / MONTAGUE RD</div>`)[0];
+            popup_7faf9085552a46a59eac810ce8243752.setContent(html_0b0418ff579c4db98eac5473b28aa2e4);
+        
+
+        marker_85803bee5f6a4e34a1092f8a7d74ae32.bindPopup(popup_7faf9085552a46a59eac810ce8243752)
+        ;
+
+        
+    
+    
+            var marker_86af6fc14d9346959d887132593f3dcd = L.marker(
+                [-27.48172, 153.00436],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ac751f8fe07e4560867222a389f51aa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_86af6fc14d9346959d887132593f3dcd.setIcon(icon_ac751f8fe07e4560867222a389f51aa2);
+        
+    
+        var popup_80980d8b1cfd41898042be13bb66d72c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef359c21749a404fb02133e7d553299c = $(`<div id="html_ef359c21749a404fb02133e7d553299c" style="width: 100.0%; height: 100.0%;">109 - MONTAGUE RD / SKINNER ST</div>`)[0];
+            popup_80980d8b1cfd41898042be13bb66d72c.setContent(html_ef359c21749a404fb02133e7d553299c);
+        
+
+        marker_86af6fc14d9346959d887132593f3dcd.bindPopup(popup_80980d8b1cfd41898042be13bb66d72c)
+        ;
+
+        
+    
+    
+            var marker_e672169fd8ca44608a568bdbc2a13516 = L.marker(
+                [-27.493626, 153.001482],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_308dd56e219e47aea913c237c26b5126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e672169fd8ca44608a568bdbc2a13516.setIcon(icon_308dd56e219e47aea913c237c26b5126);
+        
+    
+        var popup_7855ab0d84eb435180265b4a2e4b3934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b98a24585bb42158c8c8d49efcd249d = $(`<div id="html_2b98a24585bb42158c8c8d49efcd249d" style="width: 100.0%; height: 100.0%;">149 - MACQUARIE ST / GUYATT PARK</div>`)[0];
+            popup_7855ab0d84eb435180265b4a2e4b3934.setContent(html_2b98a24585bb42158c8c8d49efcd249d);
+        
+
+        marker_e672169fd8ca44608a568bdbc2a13516.bindPopup(popup_7855ab0d84eb435180265b4a2e4b3934)
+        ;
+
+        
+    
+    
+            var marker_c61db8c02e6b4b3898d153c65c10d128 = L.marker(
+                [-27.476076, 153.002459],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7cc007d736cc46cbb3b7b4ccd9c59caf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c61db8c02e6b4b3898d153c65c10d128.setIcon(icon_7cc007d736cc46cbb3b7b4ccd9c59caf);
+        
+    
+        var popup_faf4e021d59a4fba9b9db1b3620b65ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fc6e2a3f8e84b3dab3b72200c10d6e2 = $(`<div id="html_1fc6e2a3f8e84b3dab3b72200c10d6e2" style="width: 100.0%; height: 100.0%;">139 - BI-CENTENNIAL BIKE WAY / LANG PDE</div>`)[0];
+            popup_faf4e021d59a4fba9b9db1b3620b65ab.setContent(html_1fc6e2a3f8e84b3dab3b72200c10d6e2);
+        
+
+        marker_c61db8c02e6b4b3898d153c65c10d128.bindPopup(popup_faf4e021d59a4fba9b9db1b3620b65ab)
+        ;
+
+        
+    
+    
+            var marker_789b4a91c31642bf842188228f4d8358 = L.marker(
+                [-27.493963, 153.011938],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_bb07585419e8446caa24b594c9d6c006 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_789b4a91c31642bf842188228f4d8358.setIcon(icon_bb07585419e8446caa24b594c9d6c006);
+        
+    
+        var popup_6d3296684a10453392287bf7e7f02487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d53210f94ae4704aa55a818fac6059f = $(`<div id="html_8d53210f94ae4704aa55a818fac6059f" style="width: 100.0%; height: 100.0%;">24 - SIR WILLIAM MCGREGOR DR / SIR FRED SCHONNELL</div>`)[0];
+            popup_6d3296684a10453392287bf7e7f02487.setContent(html_8d53210f94ae4704aa55a818fac6059f);
+        
+
+        marker_789b4a91c31642bf842188228f4d8358.bindPopup(popup_6d3296684a10453392287bf7e7f02487)
+        ;
+
+        
+    
+    
+            var marker_ecdeb1e605d24866a0f3d41620e21d58 = L.marker(
+                [-27.482197, 153.020894],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d06c4ffe07fd406999a3b6147004f9c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ecdeb1e605d24866a0f3d41620e21d58.setIcon(icon_d06c4ffe07fd406999a3b6147004f9c9);
+        
+    
+        var popup_f9e293d68c024ed28e87e8dcb8417204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4af473e80c44433ab55d87be1bbe312 = $(`<div id="html_e4af473e80c44433ab55d87be1bbe312" style="width: 100.0%; height: 100.0%;">117 - VULTURE ST / TRIBUNE ST</div>`)[0];
+            popup_f9e293d68c024ed28e87e8dcb8417204.setContent(html_e4af473e80c44433ab55d87be1bbe312);
+        
+
+        marker_ecdeb1e605d24866a0f3d41620e21d58.bindPopup(popup_f9e293d68c024ed28e87e8dcb8417204)
+        ;
+
+        
+    
+    
+            var marker_edc2ce509cde4602bd2161475bd249a0 = L.marker(
+                [-27.465226, 153.050864],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_11b6960c78534351a507eb215216ea71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_edc2ce509cde4602bd2161475bd249a0.setIcon(icon_11b6960c78534351a507eb215216ea71);
+        
+    
+        var popup_c0e5a7d59a4545cea1c0a31db9b46145 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df861181b67443e986ac10921ae5bd3a = $(`<div id="html_df861181b67443e986ac10921ae5bd3a" style="width: 100.0%; height: 100.0%;">73 - LAMINGTON ST / REFINERY PDE</div>`)[0];
+            popup_c0e5a7d59a4545cea1c0a31db9b46145.setContent(html_df861181b67443e986ac10921ae5bd3a);
+        
+
+        marker_edc2ce509cde4602bd2161475bd249a0.bindPopup(popup_c0e5a7d59a4545cea1c0a31db9b46145)
+        ;
+
+        
+    
+    
+            var marker_6e6c4a12b7b440f2a363f050dbee7b15 = L.marker(
+                [-27.468447, 153.024662],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_59f2c92451ef4ef98d5f56d5cb39b738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6e6c4a12b7b440f2a363f050dbee7b15.setIcon(icon_59f2c92451ef4ef98d5f56d5cb39b738);
+        
+    
+        var popup_ce1d456b9b744c40af842d99d40505c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b83465e4d9e4717b2241d6c1b5c4c76 = $(`<div id="html_7b83465e4d9e4717b2241d6c1b5c4c76" style="width: 100.0%; height: 100.0%;">1101 - KING GEORGE SQUARE 2</div>`)[0];
+            popup_ce1d456b9b744c40af842d99d40505c1.setContent(html_7b83465e4d9e4717b2241d6c1b5c4c76);
+        
+
+        marker_6e6c4a12b7b440f2a363f050dbee7b15.bindPopup(popup_ce1d456b9b744c40af842d99d40505c1)
+        ;
+
+        
+    
+    
+            var marker_9deb5cfe9c2a4866bcdeb92dca9d13d0 = L.marker(
+                [-27.473021, 153.025988],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d84d89a5beb642099060f06fff90928d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9deb5cfe9c2a4866bcdeb92dca9d13d0.setIcon(icon_d84d89a5beb642099060f06fff90928d);
+        
+    
+        var popup_4209f9159b3b4222ad83758aff4bd471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d0ace8dc74e4402afd517e78af69ac0 = $(`<div id="html_8d0ace8dc74e4402afd517e78af69ac0" style="width: 100.0%; height: 100.0%;">23 - MARY STREET / GEORGE STREET</div>`)[0];
+            popup_4209f9159b3b4222ad83758aff4bd471.setContent(html_8d0ace8dc74e4402afd517e78af69ac0);
+        
+
+        marker_9deb5cfe9c2a4866bcdeb92dca9d13d0.bindPopup(popup_4209f9159b3b4222ad83758aff4bd471)
+        ;
+
+        
+    
+    
+            var marker_12bc8e21f09140ca8d0d7b4f97fdcc44 = L.marker(
+                [-27.457825, 153.036866],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_68f0ae4da1514c18b612a70e7c4c7a3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_12bc8e21f09140ca8d0d7b4f97fdcc44.setIcon(icon_68f0ae4da1514c18b612a70e7c4c7a3a);
+        
+    
+        var popup_cd56f16fa0b14774a53c8ad88826556d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b952e6a43ed3418ea8b4893cf2acd945 = $(`<div id="html_b952e6a43ed3418ea8b4893cf2acd945" style="width: 100.0%; height: 100.0%;">54 - MCLACHLAN ST / WINN ST</div>`)[0];
+            popup_cd56f16fa0b14774a53c8ad88826556d.setContent(html_b952e6a43ed3418ea8b4893cf2acd945);
+        
+
+        marker_12bc8e21f09140ca8d0d7b4f97fdcc44.bindPopup(popup_cd56f16fa0b14774a53c8ad88826556d)
+        ;
+
+        
+    
+    
+            var marker_0eeea3f6e4904f939d9b4f5dd640a8e4 = L.marker(
+                [-27.48148, 153.02368],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4993a9e743a24c7191ab512314e83cd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0eeea3f6e4904f939d9b4f5dd640a8e4.setIcon(icon_4993a9e743a24c7191ab512314e83cd1);
+        
+    
+        var popup_0343e2e15bfd485c9f47db52c0c3f33c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6292b22c77534320903754e82ffd256a = $(`<div id="html_6292b22c77534320903754e82ffd256a" style="width: 100.0%; height: 100.0%;">93 - GREY ST / QCA</div>`)[0];
+            popup_0343e2e15bfd485c9f47db52c0c3f33c.setContent(html_6292b22c77534320903754e82ffd256a);
+        
+
+        marker_0eeea3f6e4904f939d9b4f5dd640a8e4.bindPopup(popup_0343e2e15bfd485c9f47db52c0c3f33c)
+        ;
+
+        
+    
+    
+            var marker_1c7f1ea4b1384a2abb18b9b51b84eed4 = L.marker(
+                [-27.467464, 153.022094],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4e742eb4aac84ff39cc9e2df6d47a283 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1c7f1ea4b1384a2abb18b9b51b84eed4.setIcon(icon_4e742eb4aac84ff39cc9e2df6d47a283);
+        
+    
+        var popup_c000ce36e20140bdbe6a244a3823b62e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0221c7777f8448d790b17cfaa0f2a4b9 = $(`<div id="html_0221c7777f8448d790b17cfaa0f2a4b9" style="width: 100.0%; height: 100.0%;">31 - ROMA ST / TURBOT ST</div>`)[0];
+            popup_c000ce36e20140bdbe6a244a3823b62e.setContent(html_0221c7777f8448d790b17cfaa0f2a4b9);
+        
+
+        marker_1c7f1ea4b1384a2abb18b9b51b84eed4.bindPopup(popup_c000ce36e20140bdbe6a244a3823b62e)
+        ;
+
+        
+    
+    
+            var marker_4194e5cedf9648cf9a86dfc01e6dc043 = L.marker(
+                [-27.499963, 153.017633],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_0f54547b37af49eba14a097276f72146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4194e5cedf9648cf9a86dfc01e6dc043.setIcon(icon_0f54547b37af49eba14a097276f72146);
+        
+    
+        var popup_28c799c8e4b54a6db2ba6207c413aa08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59d63fbc2254abaa0b08088adcc29e9 = $(`<div id="html_b59d63fbc2254abaa0b08088adcc29e9" style="width: 100.0%; height: 100.0%;">97 - THYNNE RD / COLLEGE RD</div>`)[0];
+            popup_28c799c8e4b54a6db2ba6207c413aa08.setContent(html_b59d63fbc2254abaa0b08088adcc29e9);
+        
+
+        marker_4194e5cedf9648cf9a86dfc01e6dc043.bindPopup(popup_28c799c8e4b54a6db2ba6207c413aa08)
+        ;
+
+        
+    
+    
+            var marker_153d4485f79f4a05b93ccbd4e4e5b24c = L.marker(
+                [-27.490776, 152.994747],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_74c7f8caa5ef4af09fbfec7180f73c7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_153d4485f79f4a05b93ccbd4e4e5b24c.setIcon(icon_74c7f8caa5ef4af09fbfec7180f73c7b);
+        
+    
+        var popup_5437a98d3a2c4b3ca8d4d56eaa0d277a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d72e68e06a504974b932947a0a75752b = $(`<div id="html_d72e68e06a504974b932947a0a75752b" style="width: 100.0%; height: 100.0%;">147 - SANDFORD ST / BRISBANE ST</div>`)[0];
+            popup_5437a98d3a2c4b3ca8d4d56eaa0d277a.setContent(html_d72e68e06a504974b932947a0a75752b);
+        
+
+        marker_153d4485f79f4a05b93ccbd4e4e5b24c.bindPopup(popup_5437a98d3a2c4b3ca8d4d56eaa0d277a)
+        ;
+
+        
+    
+    
+            var marker_7fe07478a69a4f21b2a56bc4836f85bf = L.marker(
+                [-27.458199, 153.041688],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_1e99bc003c8545798b6d3e10cab931b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7fe07478a69a4f21b2a56bc4836f85bf.setIcon(icon_1e99bc003c8545798b6d3e10cab931b9);
+        
+    
+        var popup_12360a9660954906807d1d97f30e6f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83dccd142af941be9b029697f44665c3 = $(`<div id="html_83dccd142af941be9b029697f44665c3" style="width: 100.0%; height: 100.0%;">77 - JAMES ST / HARCOURT ST</div>`)[0];
+            popup_12360a9660954906807d1d97f30e6f8f.setContent(html_83dccd142af941be9b029697f44665c3);
+        
+
+        marker_7fe07478a69a4f21b2a56bc4836f85bf.bindPopup(popup_12360a9660954906807d1d97f30e6f8f)
+        ;
+
+        
+    
+    
+            var marker_4347ed6a920148f28bafcc11b6338dfb = L.marker(
+                [-27.481808, 153.025477],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d945530069fb4fa4b68b705eb9afed72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4347ed6a920148f28bafcc11b6338dfb.setIcon(icon_d945530069fb4fa4b68b705eb9afed72);
+        
+    
+        var popup_7d43a90994fc449dab955a8f156c86e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df9192abcbb14a42bed913595d92cf5b = $(`<div id="html_df9192abcbb14a42bed913595d92cf5b" style="width: 100.0%; height: 100.0%;">119 - SIDON ST / LITTLE STANLEY ST</div>`)[0];
+            popup_7d43a90994fc449dab955a8f156c86e2.setContent(html_df9192abcbb14a42bed913595d92cf5b);
+        
+
+        marker_4347ed6a920148f28bafcc11b6338dfb.bindPopup(popup_7d43a90994fc449dab955a8f156c86e2)
+        ;
+
+        
+    
+    
+            var marker_b3ba8157d16649ac92db9034bb279146 = L.marker(
+                [-27.452027, 153.04911],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_45f6fdc387be4ddda8f14118850989c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b3ba8157d16649ac92db9034bb279146.setIcon(icon_45f6fdc387be4ddda8f14118850989c8);
+        
+    
+        var popup_32cb08163ae34535bf4a36dd9578151b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b19a5b53eca1489281f4ea7dcbf9dcff = $(`<div id="html_b19a5b53eca1489281f4ea7dcbf9dcff" style="width: 100.0%; height: 100.0%;">67 - COMMERCIAL RD / TENERIFFE FERRY TERMINAL</div>`)[0];
+            popup_32cb08163ae34535bf4a36dd9578151b.setContent(html_b19a5b53eca1489281f4ea7dcbf9dcff);
+        
+
+        marker_b3ba8157d16649ac92db9034bb279146.bindPopup(popup_32cb08163ae34535bf4a36dd9578151b)
+        ;
+
+        
+    
+    
+            var marker_b4457ce2598b41eba2c93d0167e02903 = L.marker(
+                [-27.464628, 153.026863],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5010adf27d864c23bb1a06f3e1965f1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b4457ce2598b41eba2c93d0167e02903.setIcon(icon_5010adf27d864c23bb1a06f3e1965f1f);
+        
+    
+        var popup_07bc9126948e4221b690856cdd606d2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793a056fa61843519ef996812075cd4b = $(`<div id="html_793a056fa61843519ef996812075cd4b" style="width: 100.0%; height: 100.0%;">39 - TURBOT ST / WICKHAM TCE</div>`)[0];
+            popup_07bc9126948e4221b690856cdd606d2c.setContent(html_793a056fa61843519ef996812075cd4b);
+        
+
+        marker_b4457ce2598b41eba2c93d0167e02903.bindPopup(popup_07bc9126948e4221b690856cdd606d2c)
+        ;
+
+        
+    
+    
+            var marker_669d4f48b506457e957a8400582cbc27 = L.marker(
+                [-27.456085, 153.03453],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_e6b44523847143e59f61275d5a712997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_669d4f48b506457e957a8400582cbc27.setIcon(icon_e6b44523847143e59f61275d5a712997);
+        
+    
+        var popup_cb9f6ddfce564bf283f60d2e675e9a8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ed2d3a6a9424ce787fd0d541eaee8ac = $(`<div id="html_8ed2d3a6a9424ce787fd0d541eaee8ac" style="width: 100.0%; height: 100.0%;">55 - ALDEN ST / WICKHAM ST</div>`)[0];
+            popup_cb9f6ddfce564bf283f60d2e675e9a8a.setContent(html_8ed2d3a6a9424ce787fd0d541eaee8ac);
+        
+
+        marker_669d4f48b506457e957a8400582cbc27.bindPopup(popup_cb9f6ddfce564bf283f60d2e675e9a8a)
+        ;
+
+        
+    
+    
+            var marker_fe4878d41bba4b5aa84ffa13733fc319 = L.marker(
+                [-27.46637, 153.018506],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_32bf5b1e662b4267b2c57f8b67ec25a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fe4878d41bba4b5aa84ffa13733fc319.setIcon(icon_32bf5b1e662b4267b2c57f8b67ec25a1);
+        
+    
+        var popup_9b4d0a8874a041be995c8833f06652c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0335167a7e0f41a6a94dee049ae9d5aa = $(`<div id="html_0335167a7e0f41a6a94dee049ae9d5aa" style="width: 100.0%; height: 100.0%;">35 - ROMA STREET / MAKERSTON STREET</div>`)[0];
+            popup_9b4d0a8874a041be995c8833f06652c9.setContent(html_0335167a7e0f41a6a94dee049ae9d5aa);
+        
+
+        marker_fe4878d41bba4b5aa84ffa13733fc319.bindPopup(popup_9b4d0a8874a041be995c8833f06652c9)
+        ;
+
+        
+    
+    
+            var marker_0fe58ea0e3484ac9bcf870b1c6af3744 = L.marker(
+                [-27.492876, 153.006071],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_f69cfe6c41e64ac985b9d361ca9ce135 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0fe58ea0e3484ac9bcf870b1c6af3744.setIcon(icon_f69cfe6c41e64ac985b9d361ca9ce135);
+        
+    
+        var popup_42515e5d2fb44b3eb47be2182b99297c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a634e30bef3b46e8b8a14ec9380eecf9 = $(`<div id="html_a634e30bef3b46e8b8a14ec9380eecf9" style="width: 100.0%; height: 100.0%;">150 - MACQUARIE ST / MUNRO ST</div>`)[0];
+            popup_42515e5d2fb44b3eb47be2182b99297c.setContent(html_a634e30bef3b46e8b8a14ec9380eecf9);
+        
+
+        marker_0fe58ea0e3484ac9bcf870b1c6af3744.bindPopup(popup_42515e5d2fb44b3eb47be2182b99297c)
+        ;
+
+        
+    
+    
+            var marker_ff4c8cc8688c4c2784bb3263ed4dd083 = L.marker(
+                [-27.464681, 153.042561],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8ede441aacdd4a8f8e5ed7e1ffebcfdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ff4c8cc8688c4c2784bb3263ed4dd083.setIcon(icon_8ede441aacdd4a8f8e5ed7e1ffebcfdb);
+        
+    
+        var popup_f5e4f86be4a64976a7a54755db365898 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e21d7b6f58f44c889b22adb00646d9d = $(`<div id="html_8e21d7b6f58f44c889b22adb00646d9d" style="width: 100.0%; height: 100.0%;">80 - BARKER ST / BRUNSWICK ST</div>`)[0];
+            popup_f5e4f86be4a64976a7a54755db365898.setContent(html_8e21d7b6f58f44c889b22adb00646d9d);
+        
+
+        marker_ff4c8cc8688c4c2784bb3263ed4dd083.bindPopup(popup_f5e4f86be4a64976a7a54755db365898)
+        ;
+
+        
+    
+    
+            var marker_ef595da39c0e4626939dabcd877c739e = L.marker(
+                [-27.461041, 153.037902],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_2af00b775c894367a39c3a02790f3ed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ef595da39c0e4626939dabcd877c739e.setIcon(icon_2af00b775c894367a39c3a02790f3ed7);
+        
+    
+        var popup_3f264e4bf6464a44ae6fbbf929cc0cd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d6005fd0d445228b1ea4636d5727f2 = $(`<div id="html_c7d6005fd0d445228b1ea4636d5727f2" style="width: 100.0%; height: 100.0%;">78 - MALT ST / BRUNSWICK ST</div>`)[0];
+            popup_3f264e4bf6464a44ae6fbbf929cc0cd7.setContent(html_c7d6005fd0d445228b1ea4636d5727f2);
+        
+
+        marker_ef595da39c0e4626939dabcd877c739e.bindPopup(popup_3f264e4bf6464a44ae6fbbf929cc0cd7)
+        ;
+
+        
+    
+    
+            var marker_482f526383604eee8ae2a2f84181c218 = L.marker(
+                [-27.454482, 153.046802],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_fbc815299983496ab415f194c65d0da0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_482f526383604eee8ae2a2f84181c218.setIcon(icon_fbc815299983496ab415f194c65d0da0);
+        
+    
+        var popup_a43b24bafd2645668510e90acfcc64e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_689b7fc999d84ed5bee9e47843986ec5 = $(`<div id="html_689b7fc999d84ed5bee9e47843986ec5" style="width: 100.0%; height: 100.0%;">65 - CHERMSIDE ST / COMMERCIAL RD</div>`)[0];
+            popup_a43b24bafd2645668510e90acfcc64e1.setContent(html_689b7fc999d84ed5bee9e47843986ec5);
+        
+
+        marker_482f526383604eee8ae2a2f84181c218.bindPopup(popup_a43b24bafd2645668510e90acfcc64e1)
+        ;
+
+        
+    
+    
+            var marker_0e725e6022064a2fa5c44f80cbc718b6 = L.marker(
+                [-27.463405, 153.031142],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7fb07961f8024158b11422a6024dd726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0e725e6022064a2fa5c44f80cbc718b6.setIcon(icon_7fb07961f8024158b11422a6024dd726);
+        
+    
+        var popup_9ab9735109f046199a8a78763dfcf794 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_917bcdfe0bd44ff388372825cdb6290e = $(`<div id="html_917bcdfe0bd44ff388372825cdb6290e" style="width: 100.0%; height: 100.0%;">44 - QUEEN STREET / ADELAIDE STREET</div>`)[0];
+            popup_9ab9735109f046199a8a78763dfcf794.setContent(html_917bcdfe0bd44ff388372825cdb6290e);
+        
+
+        marker_0e725e6022064a2fa5c44f80cbc718b6.bindPopup(popup_9ab9735109f046199a8a78763dfcf794)
+        ;
+
+        
+    
+    
+            var marker_1888680049a44414907e2fccb8cbe984 = L.marker(
+                [-27.453717, 153.034042],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_f9880362bc0e4fbb8696ee2da81773e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1888680049a44414907e2fccb8cbe984.setIcon(icon_f9880362bc0e4fbb8696ee2da81773e2);
+        
+    
+        var popup_b2ef7cbab61f40649fafd4aa62a3dd7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3293ae6b3d4f44f2b1a81e84f88f2eed = $(`<div id="html_3293ae6b3d4f44f2b1a81e84f88f2eed" style="width: 100.0%; height: 100.0%;">56 - CONSTANCE ST / ST PAULS TCE</div>`)[0];
+            popup_b2ef7cbab61f40649fafd4aa62a3dd7d.setContent(html_3293ae6b3d4f44f2b1a81e84f88f2eed);
+        
+
+        marker_1888680049a44414907e2fccb8cbe984.bindPopup(popup_b2ef7cbab61f40649fafd4aa62a3dd7d)
+        ;
+
+        
+    
+    
+            var marker_f1f04ab6e02f4cf4a4ff012e0b1f9372 = L.marker(
+                [-27.458641, 153.03208],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5dc951546f2c4e4299adbe9773d906ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f1f04ab6e02f4cf4a4ff012e0b1f9372.setIcon(icon_5dc951546f2c4e4299adbe9773d906ce);
+        
+    
+        var popup_d7829b814da64bad80825249aa86fa60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c42d8e9e4884331ad9d4eddf65cf8ba = $(`<div id="html_8c42d8e9e4884331ad9d4eddf65cf8ba" style="width: 100.0%; height: 100.0%;">50 - GIPPS ST / WICKHAM ST</div>`)[0];
+            popup_d7829b814da64bad80825249aa86fa60.setContent(html_8c42d8e9e4884331ad9d4eddf65cf8ba);
+        
+
+        marker_f1f04ab6e02f4cf4a4ff012e0b1f9372.bindPopup(popup_d7829b814da64bad80825249aa86fa60)
+        ;
+
+        
+    
+    
+            var marker_cf1db88cfe154da1b448ef760d056204 = L.marker(
+                [-27.475039, 153.020323],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_90253fdca6954ebfa7e26e652c066c78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cf1db88cfe154da1b448ef760d056204.setIcon(icon_90253fdca6954ebfa7e26e652c066c78);
+        
+    
+        var popup_4a00f475cc6a4699a7540aa81ef80246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72b703a2026847bba6b309be9843c1ee = $(`<div id="html_72b703a2026847bba6b309be9843c1ee" style="width: 100.0%; height: 100.0%;">95 - STANLEY ST / MELBOURNE ST</div>`)[0];
+            popup_4a00f475cc6a4699a7540aa81ef80246.setContent(html_72b703a2026847bba6b309be9843c1ee);
+        
+
+        marker_cf1db88cfe154da1b448ef760d056204.bindPopup(popup_4a00f475cc6a4699a7540aa81ef80246)
+        ;
+
+        
+    
+    
+            var marker_561fd61dc93645ac92a4eca6e70a5d8b = L.marker(
+                [-27.468839, 153.011115],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4dc9e8fc70804bfca2f0eb9ee793c150 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_561fd61dc93645ac92a4eca6e70a5d8b.setIcon(icon_4dc9e8fc70804bfca2f0eb9ee793c150);
+        
+    
+        var popup_123db27dfbba4a4f9ddd33a2ecb4285e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8dd7600a8af4a4db9e70b5cf65079d2 = $(`<div id="html_c8dd7600a8af4a4db9e70b5cf65079d2" style="width: 100.0%; height: 100.0%;">133 - CORONATION DR / GO BETWEEN BRIDGE</div>`)[0];
+            popup_123db27dfbba4a4f9ddd33a2ecb4285e.setContent(html_c8dd7600a8af4a4db9e70b5cf65079d2);
+        
+
+        marker_561fd61dc93645ac92a4eca6e70a5d8b.bindPopup(popup_123db27dfbba4a4f9ddd33a2ecb4285e)
+        ;
+
+        
+    
+    
+            var marker_6192117de5af4946a802f900c46fc933 = L.marker(
+                [-27.454394, 153.049519],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7e509f5925e541efa3d2d343b185fe92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6192117de5af4946a802f900c46fc933.setIcon(icon_7e509f5925e541efa3d2d343b185fe92);
+        
+    
+        var popup_e5e3f21ae5f44571a48d4a358a74877a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8b1a86ddb6f48268ed8604c2472e6cd = $(`<div id="html_a8b1a86ddb6f48268ed8604c2472e6cd" style="width: 100.0%; height: 100.0%;">68 - VERNON TCE / ETHEL ST</div>`)[0];
+            popup_e5e3f21ae5f44571a48d4a358a74877a.setContent(html_a8b1a86ddb6f48268ed8604c2472e6cd);
+        
+
+        marker_6192117de5af4946a802f900c46fc933.bindPopup(popup_e5e3f21ae5f44571a48d4a358a74877a)
+        ;
+
+        
+    
+    
+            var marker_2e1752729efc449f9c07f3df84eab7c7 = L.marker(
+                [-27.468845, 153.007364],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7965282b140946bdabd7d94884dccf09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2e1752729efc449f9c07f3df84eab7c7.setIcon(icon_7965282b140946bdabd7d94884dccf09);
+        
+    
+        var popup_4d180c318b4240f588877535aaf04e7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106a8906ae994c26ae2172065cd55a5c = $(`<div id="html_106a8906ae994c26ae2172065cd55a5c" style="width: 100.0%; height: 100.0%;">134 - RAILWAY TCE / CRIBB ST</div>`)[0];
+            popup_4d180c318b4240f588877535aaf04e7b.setContent(html_106a8906ae994c26ae2172065cd55a5c);
+        
+
+        marker_2e1752729efc449f9c07f3df84eab7c7.bindPopup(popup_4d180c318b4240f588877535aaf04e7b)
+        ;
+
+        
+    
+    
+            var marker_ccfe1c41f44347098bedeaa8afd2decd = L.marker(
+                [-27.457512, 153.033841],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_0c00102843124e989756cf42773eda18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ccfe1c41f44347098bedeaa8afd2decd.setIcon(icon_0c00102843124e989756cf42773eda18);
+        
+    
+        var popup_bf08aecf2db9486599f4b00edb62c173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac81d4d48a01458d90c7dcbbad4c4f34 = $(`<div id="html_ac81d4d48a01458d90c7dcbbad4c4f34" style="width: 100.0%; height: 100.0%;">52 - BRUNSWICK ST MALL / WICKHAM ST</div>`)[0];
+            popup_bf08aecf2db9486599f4b00edb62c173.setContent(html_ac81d4d48a01458d90c7dcbbad4c4f34);
+        
+
+        marker_ccfe1c41f44347098bedeaa8afd2decd.bindPopup(popup_bf08aecf2db9486599f4b00edb62c173)
+        ;
+
+        
+    
+    
+            var marker_7a3e54f6e3c4484a9f31279444dc8bff = L.marker(
+                [-27.46123, 153.031077],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b19f3fd421f94b1fac42a9ebbcc2a465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7a3e54f6e3c4484a9f31279444dc8bff.setIcon(icon_b19f3fd421f94b1fac42a9ebbcc2a465);
+        
+    
+        var popup_9aea65fdfb5246018497eaa21c1a1366 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08cb048ebbd7450ca00cb9b04581e735 = $(`<div id="html_08cb048ebbd7450ca00cb9b04581e735" style="width: 100.0%; height: 100.0%;">47 - TURBOT ST / BARRY PDE</div>`)[0];
+            popup_9aea65fdfb5246018497eaa21c1a1366.setContent(html_08cb048ebbd7450ca00cb9b04581e735);
+        
+
+        marker_7a3e54f6e3c4484a9f31279444dc8bff.bindPopup(popup_9aea65fdfb5246018497eaa21c1a1366)
+        ;
+
+        
+    
+    
+            var marker_1f3f0c09465d4dc4b2e5fb7d63504877 = L.marker(
+                [-27.476003, 153.000676],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ca0c7832952140679fcaf807a7fc49b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1f3f0c09465d4dc4b2e5fb7d63504877.setIcon(icon_ca0c7832952140679fcaf807a7fc49b4);
+        
+    
+        var popup_96503cdc9c9c44119358aced95288339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2df37a9699f405e9784524bb1ff15eb = $(`<div id="html_f2df37a9699f405e9784524bb1ff15eb" style="width: 100.0%; height: 100.0%;">140 - DUNMORE TCE / KINGSFORD ST</div>`)[0];
+            popup_96503cdc9c9c44119358aced95288339.setContent(html_f2df37a9699f405e9784524bb1ff15eb);
+        
+
+        marker_1f3f0c09465d4dc4b2e5fb7d63504877.bindPopup(popup_96503cdc9c9c44119358aced95288339)
+        ;
+
+        
+    
+    
+            var marker_f34b4c3cb68d472d88d2e054a3e0ea1c = L.marker(
+                [-27.472044, 153.027193],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_e390bafc608d46e4b0eff5244bdfd8d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f34b4c3cb68d472d88d2e054a3e0ea1c.setIcon(icon_e390bafc608d46e4b0eff5244bdfd8d4);
+        
+    
+        var popup_1341d184896746d2a8912f5f627fac93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c6beb716394bb393009e06ae1d23ee = $(`<div id="html_77c6beb716394bb393009e06ae1d23ee" style="width: 100.0%; height: 100.0%;">16 - MARY STREET / ALBERT STREET</div>`)[0];
+            popup_1341d184896746d2a8912f5f627fac93.setContent(html_77c6beb716394bb393009e06ae1d23ee);
+        
+
+        marker_f34b4c3cb68d472d88d2e054a3e0ea1c.bindPopup(popup_1341d184896746d2a8912f5f627fac93)
+        ;
+
+        
+    
+    
+            var marker_aae965f33ce045d79095ec64e43035d2 = L.marker(
+                [-27.456276, 153.039196],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_dae1b3a57f5a4bf087a8624b7aadb87f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aae965f33ce045d79095ec64e43035d2.setIcon(icon_dae1b3a57f5a4bf087a8624b7aadb87f);
+        
+    
+        var popup_b211e27e0a6349ffa4372b82b7c557da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a0056c95d514791a12763ea78bfe9ca = $(`<div id="html_5a0056c95d514791a12763ea78bfe9ca" style="width: 100.0%; height: 100.0%;">59 - JAMES ST / MCLACHLAN ST</div>`)[0];
+            popup_b211e27e0a6349ffa4372b82b7c557da.setContent(html_5a0056c95d514791a12763ea78bfe9ca);
+        
+
+        marker_aae965f33ce045d79095ec64e43035d2.bindPopup(popup_b211e27e0a6349ffa4372b82b7c557da)
+        ;
+
+        
+    
+    
+            var marker_115317d78a8b4a33bd9e4bc96ec96101 = L.marker(
+                [-27.480385, 153.023564],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5633121d721e4f1ca0a52bc9640b6983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_115317d78a8b4a33bd9e4bc96ec96101.setIcon(icon_5633121d721e4f1ca0a52bc9640b6983);
+        
+    
+        var popup_ac7b76bd85e94e7a86c866fcfb79c23a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f3f06fadd2b4038b5401481a4f352b6 = $(`<div id="html_5f3f06fadd2b4038b5401481a4f352b6" style="width: 100.0%; height: 100.0%;">18 - LITTLE STANLEY ST / TRIBUNE ST</div>`)[0];
+            popup_ac7b76bd85e94e7a86c866fcfb79c23a.setContent(html_5f3f06fadd2b4038b5401481a4f352b6);
+        
+
+        marker_115317d78a8b4a33bd9e4bc96ec96101.bindPopup(popup_ac7b76bd85e94e7a86c866fcfb79c23a)
+        ;
+
+        
+    
+    
+            var marker_372682a0f6594b7888f5f0acc1bf9c40 = L.marker(
+                [-27.465043, 153.030991],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_c6b4240248154552bf8411edca923f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_372682a0f6594b7888f5f0acc1bf9c40.setIcon(icon_c6b4240248154552bf8411edca923f9f);
+        
+    
+        var popup_c7c2a2b957ca45e99784e5a46f747729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826e5d1ac6054c74957235d38280697c = $(`<div id="html_826e5d1ac6054c74957235d38280697c" style="width: 100.0%; height: 100.0%;">43 - QUEEN ST / WHARF ST</div>`)[0];
+            popup_c7c2a2b957ca45e99784e5a46f747729.setContent(html_826e5d1ac6054c74957235d38280697c);
+        
+
+        marker_372682a0f6594b7888f5f0acc1bf9c40.bindPopup(popup_c7c2a2b957ca45e99784e5a46f747729)
+        ;
+
+        
+    
+    
+            var marker_4b91a242b63b4a669e10b591d7bff109 = L.marker(
+                [-27.469924, 153.02822],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b0537bfd7c2f44f39aca4a95adb86432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4b91a242b63b4a669e10b591d7bff109.setIcon(icon_b0537bfd7c2f44f39aca4a95adb86432);
+        
+    
+        var popup_21207eb8e80248e7ba71fe24a3a95f56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd6778a0e2f442729908c2012710664b = $(`<div id="html_bd6778a0e2f442729908c2012710664b" style="width: 100.0%; height: 100.0%;">9 - CHARLOTTE STREET / EDWARD STREET</div>`)[0];
+            popup_21207eb8e80248e7ba71fe24a3a95f56.setContent(html_bd6778a0e2f442729908c2012710664b);
+        
+
+        marker_4b91a242b63b4a669e10b591d7bff109.bindPopup(popup_21207eb8e80248e7ba71fe24a3a95f56)
+        ;
+
+        
+    
+    
+            var marker_2e460019d2be43388618b7c93d554cc3 = L.marker(
+                [-27.469702, 153.029828],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b5a71a83ea8643a0ae6d39462cccb67d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2e460019d2be43388618b7c93d554cc3.setIcon(icon_b5a71a83ea8643a0ae6d39462cccb67d);
+        
+    
+        var popup_5d850ac6ba154b10b992cab1d65c4032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb1203810dc34ed28439f065cb9d8e5c = $(`<div id="html_fb1203810dc34ed28439f065cb9d8e5c" style="width: 100.0%; height: 100.0%;">5 - MARKET STREET / MARY STREET</div>`)[0];
+            popup_5d850ac6ba154b10b992cab1d65c4032.setContent(html_fb1203810dc34ed28439f065cb9d8e5c);
+        
+
+        marker_2e460019d2be43388618b7c93d554cc3.bindPopup(popup_5d850ac6ba154b10b992cab1d65c4032)
+        ;
+
+        
+    
+    
+            var marker_3180d3bbbcac4f8eaa1abc61646e08a2 = L.marker(
+                [-27.468675, 153.029834],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_264fa6d7ac124e71b9f91c69cd180b83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3180d3bbbcac4f8eaa1abc61646e08a2.setIcon(icon_264fa6d7ac124e71b9f91c69cd180b83);
+        
+    
+        var popup_7f48b57b9ac14e549a3a18d9a6f73a12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66c08a94cbbb4f0088a44cdc7fce0297 = $(`<div id="html_66c08a94cbbb4f0088a44cdc7fce0297" style="width: 100.0%; height: 100.0%;">4 - CHARLOTTE STREET / EAGLE STREET</div>`)[0];
+            popup_7f48b57b9ac14e549a3a18d9a6f73a12.setContent(html_66c08a94cbbb4f0088a44cdc7fce0297);
+        
+
+        marker_3180d3bbbcac4f8eaa1abc61646e08a2.bindPopup(popup_7f48b57b9ac14e549a3a18d9a6f73a12)
+        ;
+
+        
+    
+    
+            var marker_9921e800e3854b48bf5efa6ba41ccc05 = L.marker(
+                [-27.468422, 153.024635],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_3fe9128be3f3485ea445594113ab448a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9921e800e3854b48bf5efa6ba41ccc05.setIcon(icon_3fe9128be3f3485ea445594113ab448a);
+        
+    
+        var popup_d115dbed848146b2982a3aa0e0e61a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b4e9052e261451ba7215da034b57e8d = $(`<div id="html_1b4e9052e261451ba7215da034b57e8d" style="width: 100.0%; height: 100.0%;">11 - KING GEORGE SQUARE / ANN ST</div>`)[0];
+            popup_d115dbed848146b2982a3aa0e0e61a46.setContent(html_1b4e9052e261451ba7215da034b57e8d);
+        
+
+        marker_9921e800e3854b48bf5efa6ba41ccc05.bindPopup(popup_d115dbed848146b2982a3aa0e0e61a46)
+        ;
+
+        
+    
+    
+            var marker_28659d4f8d0945e0851c7b2a6e43a82f = L.marker(
+                [-27.473304, 153.048757],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5b02e9652d214655919c42a7a1f12c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28659d4f8d0945e0851c7b2a6e43a82f.setIcon(icon_5b02e9652d214655919c42a7a1f12c4f);
+        
+    
+        var popup_5fb4e8ed5a1d4a10a36c077a72f8edf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ede2fd80618645db8c8fd9894e106601 = $(`<div id="html_ede2fd80618645db8c8fd9894e106601" style="width: 100.0%; height: 100.0%;">85 - OXLADE DR / TURNER AVE</div>`)[0];
+            popup_5fb4e8ed5a1d4a10a36c077a72f8edf0.setContent(html_ede2fd80618645db8c8fd9894e106601);
+        
+
+        marker_28659d4f8d0945e0851c7b2a6e43a82f.bindPopup(popup_5fb4e8ed5a1d4a10a36c077a72f8edf0)
+        ;
+
+        
+    
+    
+            var marker_e905480da7ab4db4bc7a23c052e74fe3 = L.marker(
+                [-27.473888, 153.000599],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b39dc784d0f44bbf84b45d2b6f94e96e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e905480da7ab4db4bc7a23c052e74fe3.setIcon(icon_b39dc784d0f44bbf84b45d2b6f94e96e);
+        
+    
+        var popup_8875c00705e246598680454dd0ab8069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c65e99f9e640b7998e26797d7a42a9 = $(`<div id="html_b4c65e99f9e640b7998e26797d7a42a9" style="width: 100.0%; height: 100.0%;">138 - ROY ST / LANG PDE</div>`)[0];
+            popup_8875c00705e246598680454dd0ab8069.setContent(html_b4c65e99f9e640b7998e26797d7a42a9);
+        
+
+        marker_e905480da7ab4db4bc7a23c052e74fe3.bindPopup(popup_8875c00705e246598680454dd0ab8069)
+        ;
+
+        
+    
+    
+            var marker_c18a0bae71814784ab1761c833730578 = L.marker(
+                [-27.483168, 152.996419],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8225828614e645a38b44acc70d3450db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c18a0bae71814784ab1761c833730578.setIcon(icon_8225828614e645a38b44acc70d3450db);
+        
+    
+        var popup_cd97a599013f472abe7c9d637fcd097f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe305000305a40bdaf1604f5076d8ca4 = $(`<div id="html_fe305000305a40bdaf1604f5076d8ca4" style="width: 100.0%; height: 100.0%;">143 - REGATTA FERRY TERMINAL / SYLVAN RD</div>`)[0];
+            popup_cd97a599013f472abe7c9d637fcd097f.setContent(html_fe305000305a40bdaf1604f5076d8ca4);
+        
+
+        marker_c18a0bae71814784ab1761c833730578.bindPopup(popup_cd97a599013f472abe7c9d637fcd097f)
+        ;
+
+        
+    
+    
+            var marker_1a68fe2af9b24e68ad0afcc6a3546aee = L.marker(
+                [-27.467802, 153.053645],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ca11af9b1f5744e3a4037f39b2845d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1a68fe2af9b24e68ad0afcc6a3546aee.setIcon(icon_ca11af9b1f5744e3a4037f39b2845d38);
+        
+    
+        var popup_11837297544447de80ae00ff8c304e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_699e0bc17bc84dc4ac21576774fd77c0 = $(`<div id="html_699e0bc17bc84dc4ac21576774fd77c0" style="width: 100.0%; height: 100.0%;">72 - LAMINGTON ST / POWERHOUSE</div>`)[0];
+            popup_11837297544447de80ae00ff8c304e6a.setContent(html_699e0bc17bc84dc4ac21576774fd77c0);
+        
+
+        marker_1a68fe2af9b24e68ad0afcc6a3546aee.bindPopup(popup_11837297544447de80ae00ff8c304e6a)
+        ;
+
+        
+    
+    
+            var marker_a6c0921a7c954dfc80ba032fe90f2f93 = L.marker(
+                [-27.485872, 152.99347],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_67d9ddf6d01f444f8b3642e5b40dcc39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a6c0921a7c954dfc80ba032fe90f2f93.setIcon(icon_67d9ddf6d01f444f8b3642e5b40dcc39);
+        
+    
+        var popup_10ce10b0b7ae459f84194f72f1e75f4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e208d1073644356ab9dfff8d07c5bbd = $(`<div id="html_0e208d1073644356ab9dfff8d07c5bbd" style="width: 100.0%; height: 100.0%;">145 - CORONATION DR / ARCHER ST</div>`)[0];
+            popup_10ce10b0b7ae459f84194f72f1e75f4e.setContent(html_0e208d1073644356ab9dfff8d07c5bbd);
+        
+
+        marker_a6c0921a7c954dfc80ba032fe90f2f93.bindPopup(popup_10ce10b0b7ae459f84194f72f1e75f4e)
+        ;
+
+        
+    
+    
+            var marker_c15c77261dd2469da1b03be75d5ff68c = L.marker(
+                [-27.483259, 153.026946],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_c010c6cba7374301b8f4fd18f73e07d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c15c77261dd2469da1b03be75d5ff68c.setIcon(icon_c010c6cba7374301b8f4fd18f73e07d5);
+        
+    
+        var popup_41d5a8a25afa4fbf86099f25ad044444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de094b4d7ca24761b51cfed4102fb8a3 = $(`<div id="html_de094b4d7ca24761b51cfed4102fb8a3" style="width: 100.0%; height: 100.0%;">121 - VULTURE ST / STANLEY ST</div>`)[0];
+            popup_41d5a8a25afa4fbf86099f25ad044444.setContent(html_de094b4d7ca24761b51cfed4102fb8a3);
+        
+
+        marker_c15c77261dd2469da1b03be75d5ff68c.bindPopup(popup_41d5a8a25afa4fbf86099f25ad044444)
+        ;
+
+        
+    
+    
+            var marker_4ef3f81281ff4ab0aaea3c244e96b02a = L.marker(
+                [-27.464986, 153.027679],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_bc7c67afa7bd46eb9019cfdb9347ecd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4ef3f81281ff4ab0aaea3c244e96b02a.setIcon(icon_bc7c67afa7bd46eb9019cfdb9347ecd8);
+        
+    
+        var popup_3656707c9e55491d9919791ebe4ef104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916cb21964444aef8fccd70ee5ce3e6c = $(`<div id="html_916cb21964444aef8fccd70ee5ce3e6c" style="width: 100.0%; height: 100.0%;">40 - ANN STREET / CREEK STREET</div>`)[0];
+            popup_3656707c9e55491d9919791ebe4ef104.setContent(html_916cb21964444aef8fccd70ee5ce3e6c);
+        
+
+        marker_4ef3f81281ff4ab0aaea3c244e96b02a.bindPopup(popup_3656707c9e55491d9919791ebe4ef104)
+        ;
+
+        
+    
+    
+            var marker_7ac3e448e7514aeeade215e9005ede0a = L.marker(
+                [-27.494561, 153.016318],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_56d9f2ff45cf44b790848a8e1f178e4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7ac3e448e7514aeeade215e9005ede0a.setIcon(icon_56d9f2ff45cf44b790848a8e1f178e4d);
+        
+    
+        var popup_bbc46e3d152f49e99f7127929d715a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c6ee09536a0496f987c5c0453a45a40 = $(`<div id="html_7c6ee09536a0496f987c5c0453a45a40" style="width: 100.0%; height: 100.0%;">27 - BLAIR DR / SIR WILLIAM MACGREGOR DR</div>`)[0];
+            popup_bbc46e3d152f49e99f7127929d715a68.setContent(html_7c6ee09536a0496f987c5c0453a45a40);
+        
+
+        marker_7ac3e448e7514aeeade215e9005ede0a.bindPopup(popup_bbc46e3d152f49e99f7127929d715a68)
+        ;
+
+        
+    
+    
+            var marker_b22c26e48c44446f91ad87a7640ac0a1 = L.marker(
+                [-27.470987, 153.004602],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_797d69e147f8490fa9bdb00f72c6837e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b22c26e48c44446f91ad87a7640ac0a1.setIcon(icon_797d69e147f8490fa9bdb00f72c6837e);
+        
+    
+        var popup_3ae8ac9663164d16af3cdc7d6126839d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_944370246a7c4cfca13bb89f1b59916c = $(`<div id="html_944370246a7c4cfca13bb89f1b59916c" style="width: 100.0%; height: 100.0%;">136 - PARK RD / DOUGLAS ST</div>`)[0];
+            popup_3ae8ac9663164d16af3cdc7d6126839d.setContent(html_944370246a7c4cfca13bb89f1b59916c);
+        
+
+        marker_b22c26e48c44446f91ad87a7640ac0a1.bindPopup(popup_3ae8ac9663164d16af3cdc7d6126839d)
+        ;
+
+        
+    
+    
+            var marker_2bcb0ecde24b42ceb6478de4fe95e803 = L.marker(
+                [-27.459833, 153.033445],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_74c1c77a28ff4df7ad2cdebfc80f25c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2bcb0ecde24b42ceb6478de4fe95e803.setIcon(icon_74c1c77a28ff4df7ad2cdebfc80f25c5);
+        
+    
+        var popup_99224edd449d46f8a4e515c520ba81cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6435b844b651423a9ee52857cfb6f76c = $(`<div id="html_6435b844b651423a9ee52857cfb6f76c" style="width: 100.0%; height: 100.0%;">49 - ANN STREET / GIPPS STREET</div>`)[0];
+            popup_99224edd449d46f8a4e515c520ba81cf.setContent(html_6435b844b651423a9ee52857cfb6f76c);
+        
+
+        marker_2bcb0ecde24b42ceb6478de4fe95e803.bindPopup(popup_99224edd449d46f8a4e515c520ba81cf)
+        ;
+
+        
+    
+    
+            var marker_a90ebffcd13d467ea32fa8462114e96e = L.marker(
+                [-27.475922, 153.0288],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7fb0b53db74243ff8e55187fad798a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a90ebffcd13d467ea32fa8462114e96e.setIcon(icon_7fb0b53db74243ff8e55187fad798a30);
+        
+    
+        var popup_9f25810288204b5b86af14fae47c36e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfbcbd99db3f44838be2fc204034e430 = $(`<div id="html_dfbcbd99db3f44838be2fc204034e430" style="width: 100.0%; height: 100.0%;">21 - BOTANICAL GARDENS / QUT</div>`)[0];
+            popup_9f25810288204b5b86af14fae47c36e2.setContent(html_dfbcbd99db3f44838be2fc204034e430);
+        
+
+        marker_a90ebffcd13d467ea32fa8462114e96e.bindPopup(popup_9f25810288204b5b86af14fae47c36e2)
+        ;
+
+        
+    
+    
+            var marker_1ae2e28e39094c0fba19a8682fce6689 = L.marker(
+                [-27.469075, 153.021808],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_26a05b1eb95c4f6ca35e43dc5434c2ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1ae2e28e39094c0fba19a8682fce6689.setIcon(icon_26a05b1eb95c4f6ca35e43dc5434c2ce);
+        
+    
+        var popup_68bb8bf599134266939396c2224ec64f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3ca5fb749045eaab96d047432e9649 = $(`<div id="html_6c3ca5fb749045eaab96d047432e9649" style="width: 100.0%; height: 100.0%;">29 - GEORGE STREET / ANN STREET</div>`)[0];
+            popup_68bb8bf599134266939396c2224ec64f.setContent(html_6c3ca5fb749045eaab96d047432e9649);
+        
+
+        marker_1ae2e28e39094c0fba19a8682fce6689.bindPopup(popup_68bb8bf599134266939396c2224ec64f)
+        ;
+
+        
+    
+    
+            var marker_a734e8c61807433e9ae8689a6223f8a4 = L.marker(
+                [-27.452468, 153.040565],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_eb43a613ad514ef0b63d8c1bc1523afc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a734e8c61807433e9ae8689a6223f8a4.setIcon(icon_eb43a613ad514ef0b63d8c1bc1523afc);
+        
+    
+        var popup_28fa0a2e77064740a370daf97d55c088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3981b28377a644c898ee35554e8df63c = $(`<div id="html_3981b28377a644c898ee35554e8df63c" style="width: 100.0%; height: 100.0%;">63 - ANN ST / MURRI WAY</div>`)[0];
+            popup_28fa0a2e77064740a370daf97d55c088.setContent(html_3981b28377a644c898ee35554e8df63c);
+        
+
+        marker_a734e8c61807433e9ae8689a6223f8a4.bindPopup(popup_28fa0a2e77064740a370daf97d55c088)
+        ;
+
+        
+    
+    
+            var marker_a93d0ca9f34d4f24925874fed30d5f9f = L.marker(
+                [-27.471297, 153.02257],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4a2029787cf7425098567d29ad27848c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a93d0ca9f34d4f24925874fed30d5f9f.setIcon(icon_4a2029787cf7425098567d29ad27848c);
+        
+    
+        var popup_0731dec87a284f4cab2661be13f9062e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4413a5ef3524d3681864b0ee05fea8f = $(`<div id="html_c4413a5ef3524d3681864b0ee05fea8f" style="width: 100.0%; height: 100.0%;">26 - NORTH QUAY / REDDACLIFF PLACE</div>`)[0];
+            popup_0731dec87a284f4cab2661be13f9062e.setContent(html_c4413a5ef3524d3681864b0ee05fea8f);
+        
+
+        marker_a93d0ca9f34d4f24925874fed30d5f9f.bindPopup(popup_0731dec87a284f4cab2661be13f9062e)
+        ;
+
+        
+    
+    
+            var marker_3ab05f97ae114db69ec8b8190be4b306 = L.marker(
+                [-27.467498, 153.0467],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_072bd405fd0e40188ece2c008a17e679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3ab05f97ae114db69ec8b8190be4b306.setIcon(icon_072bd405fd0e40188ece2c008a17e679);
+        
+    
+        var popup_9c054ade773b4e9db6900d4f036983fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9dafffa738749a6897884c3612c56a7 = $(`<div id="html_b9dafffa738749a6897884c3612c56a7" style="width: 100.0%; height: 100.0%;">82 - BRUNSWICK ST / MERTHYR RD</div>`)[0];
+            popup_9c054ade773b4e9db6900d4f036983fd.setContent(html_b9dafffa738749a6897884c3612c56a7);
+        
+
+        marker_3ab05f97ae114db69ec8b8190be4b306.bindPopup(popup_9c054ade773b4e9db6900d4f036983fd)
+        ;
+
+        
+    
+    
+            var marker_01dc571ff2d54636a2f40d6dd1dc0e4d = L.marker(
+                [-27.463678, 153.049485],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_904a58d9e1ca4eb8bf130e90d950f116 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_01dc571ff2d54636a2f40d6dd1dc0e4d.setIcon(icon_904a58d9e1ca4eb8bf130e90d950f116);
+        
+    
+        var popup_f1a3b92ac2f143f4bae93930330b4850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b145a4ab0a564bdd86f6b5ad5987d7f7 = $(`<div id="html_b145a4ab0a564bdd86f6b5ad5987d7f7" style="width: 100.0%; height: 100.0%;">74 - MERTHYR RD / JAMES ST</div>`)[0];
+            popup_f1a3b92ac2f143f4bae93930330b4850.setContent(html_b145a4ab0a564bdd86f6b5ad5987d7f7);
+        
+
+        marker_01dc571ff2d54636a2f40d6dd1dc0e4d.bindPopup(popup_f1a3b92ac2f143f4bae93930330b4850)
+        ;
+
+        
+    
+    
+            var marker_a09d02e327fb4d2bb383f9ccc6c460ed = L.marker(
+                [-27.47019, 153.025852],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_26a6f63240f1443ea1b835151318f0c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a09d02e327fb4d2bb383f9ccc6c460ed.setIcon(icon_26a6f63240f1443ea1b835151318f0c8);
+        
+    
+        var popup_b13569e5b51841239aaa36d0073f2155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e168e9d3ce84fb1ab4704067a538b0e = $(`<div id="html_8e168e9d3ce84fb1ab4704067a538b0e" style="width: 100.0%; height: 100.0%;">15 - ALBERT STREET MALL / ELIZABETH STREET</div>`)[0];
+            popup_b13569e5b51841239aaa36d0073f2155.setContent(html_8e168e9d3ce84fb1ab4704067a538b0e);
+        
+
+        marker_a09d02e327fb4d2bb383f9ccc6c460ed.bindPopup(popup_b13569e5b51841239aaa36d0073f2155)
+        ;
+
+        
+    
+    
+            var marker_9a9577b354a2456bbaf19c155a56e48c = L.marker(
+                [-27.479453, 152.997215],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_a468a2f5fa0d41229a78817bc000e532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9a9577b354a2456bbaf19c155a56e48c.setIcon(icon_a468a2f5fa0d41229a78817bc000e532);
+        
+    
+        var popup_e4b2547c7aed4a15856659164921b736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419c3863be6c4f7b9073eb217b963118 = $(`<div id="html_419c3863be6c4f7b9073eb217b963118" style="width: 100.0%; height: 100.0%;">141 - LAND ST / CORONATION DR</div>`)[0];
+            popup_e4b2547c7aed4a15856659164921b736.setContent(html_419c3863be6c4f7b9073eb217b963118);
+        
+
+        marker_9a9577b354a2456bbaf19c155a56e48c.bindPopup(popup_e4b2547c7aed4a15856659164921b736)
+        ;
+
+        
+    
+    
+            var marker_43475b1529244513a4b028262a6ff355 = L.marker(
+                [-27.474992, 153.037647],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ea1ba81592d34fe6a40b217c1d30076c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_43475b1529244513a4b028262a6ff355.setIcon(icon_ea1ba81592d34fe6a40b217c1d30076c);
+        
+    
+        var popup_9dcd764185914833afe8d702b8357c67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec7760fd02354d2da432ab97a07b8296 = $(`<div id="html_ec7760fd02354d2da432ab97a07b8296" style="width: 100.0%; height: 100.0%;">130 - O'CONNELL ST / LAMBERT ST</div>`)[0];
+            popup_9dcd764185914833afe8d702b8357c67.setContent(html_ec7760fd02354d2da432ab97a07b8296);
+        
+
+        marker_43475b1529244513a4b028262a6ff355.bindPopup(popup_9dcd764185914833afe8d702b8357c67)
+        ;
+
+        
+    
+    
+            var marker_c24ddd39a1194adb8f0455109c3b0dae = L.marker(
+                [-27.46048, 153.032768],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4331674be23a4186aec6bfa94b732e94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c24ddd39a1194adb8f0455109c3b0dae.setIcon(icon_4331674be23a4186aec6bfa94b732e94);
+        
+    
+        var popup_e24c9a1ae90e4ae5b89ca4cb3fd4ab8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_133e5ae9d9854bc2aaeda10cd067dc91 = $(`<div id="html_133e5ae9d9854bc2aaeda10cd067dc91" style="width: 100.0%; height: 100.0%;">48 - ANN ST / GOTHA ST</div>`)[0];
+            popup_e24c9a1ae90e4ae5b89ca4cb3fd4ab8f.setContent(html_133e5ae9d9854bc2aaeda10cd067dc91);
+        
+
+        marker_c24ddd39a1194adb8f0455109c3b0dae.bindPopup(popup_e24c9a1ae90e4ae5b89ca4cb3fd4ab8f)
+        ;
+
+        
+    
+    
+            var marker_313f39ae5de14c49a55a54d642bea361 = L.marker(
+                [-27.461803, 153.036021],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d9116b5060f84392979f5632a659f402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_313f39ae5de14c49a55a54d642bea361.setIcon(icon_d9116b5060f84392979f5632a659f402);
+        
+    
+        var popup_496a7ad4bd434c1e9d56be34b062c749 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd01b1bf09ad4625a8ac5d99e2f24114 = $(`<div id="html_dd01b1bf09ad4625a8ac5d99e2f24114" style="width: 100.0%; height: 100.0%;">53 - BOWEN TCE / BRADFIELD HWY</div>`)[0];
+            popup_496a7ad4bd434c1e9d56be34b062c749.setContent(html_dd01b1bf09ad4625a8ac5d99e2f24114);
+        
+
+        marker_313f39ae5de14c49a55a54d642bea361.bindPopup(popup_496a7ad4bd434c1e9d56be34b062c749)
+        ;
+
+        
+    
+    
+            var marker_c21f82080eb04774be0b6cb38858b6d4 = L.marker(
+                [-27.494959, 153.02802],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_be5796b659444eecab9885bb72dabaab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c21f82080eb04774be0b6cb38858b6d4.setIcon(icon_be5796b659444eecab9885bb72dabaab);
+        
+    
+        var popup_32323f0891f1436ea081ac16a5e4a9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64e54d0ec6e9480db57c6099441e4f2b = $(`<div id="html_64e54d0ec6e9480db57c6099441e4f2b" style="width: 100.0%; height: 100.0%;">125 - ANNERLEY RD / BOGGO RD</div>`)[0];
+            popup_32323f0891f1436ea081ac16a5e4a9a1.setContent(html_64e54d0ec6e9480db57c6099441e4f2b);
+        
+
+        marker_c21f82080eb04774be0b6cb38858b6d4.bindPopup(popup_32323f0891f1436ea081ac16a5e4a9a1)
+        ;
+
+        
+    
+    
+            var marker_07318b2ac35644469e63ff77425041a1 = L.marker(
+                [-27.459091, 153.050239],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_c9a1a58b16fc49d599cfcecde86310d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_07318b2ac35644469e63ff77425041a1.setIcon(icon_c9a1a58b16fc49d599cfcecde86310d9);
+        
+    
+        var popup_4ae43587446148b7a8680e3b3018acaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_818e158e26ac480792fbd8ab2733b361 = $(`<div id="html_818e158e26ac480792fbd8ab2733b361" style="width: 100.0%; height: 100.0%;">70 - MACQUARIE ST / BEESTON ST</div>`)[0];
+            popup_4ae43587446148b7a8680e3b3018acaa.setContent(html_818e158e26ac480792fbd8ab2733b361);
+        
+
+        marker_07318b2ac35644469e63ff77425041a1.bindPopup(popup_4ae43587446148b7a8680e3b3018acaa)
+        ;
+
+        
+    
+    
+            var marker_57637f5a35db42c49ddb554b515657e4 = L.marker(
+                [-27.469931, 153.043525],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_a449790503bb4378a2bd89a676f7cbbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57637f5a35db42c49ddb554b515657e4.setIcon(icon_a449790503bb4378a2bd89a676f7cbbb);
+        
+    
+        var popup_cfb01eac0c80423487eda0138f87db83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61825cf096244432b9354c8552737509 = $(`<div id="html_61825cf096244432b9354c8552737509" style="width: 100.0%; height: 100.0%;">87 - MERTHYR RD / REGINALD ST</div>`)[0];
+            popup_cfb01eac0c80423487eda0138f87db83.setContent(html_61825cf096244432b9354c8552737509);
+        
+
+        marker_57637f5a35db42c49ddb554b515657e4.bindPopup(popup_cfb01eac0c80423487eda0138f87db83)
+        ;
+
+        
+    
+    
+            var marker_3ff670e2b0754dd1b513595b74616a07 = L.marker(
+                [-27.468963, 153.02461],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7f7c3f0b22ab4480abfc40266ee1ca72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3ff670e2b0754dd1b513595b74616a07.setIcon(icon_7f7c3f0b22ab4480abfc40266ee1ca72);
+        
+    
+        var popup_a986ac51b96b459794791c5edbd54831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75f0ec866914bee96974c0915cafd07 = $(`<div id="html_a75f0ec866914bee96974c0915cafd07" style="width: 100.0%; height: 100.0%;">12 - ALBERT ST MALL / ADELAIDE ST</div>`)[0];
+            popup_a986ac51b96b459794791c5edbd54831.setContent(html_a75f0ec866914bee96974c0915cafd07);
+        
+
+        marker_3ff670e2b0754dd1b513595b74616a07.bindPopup(popup_a986ac51b96b459794791c5edbd54831)
+        ;
+
+        
+    
+    
+            var marker_8b305662aa6e4aff89b85cad2e543399 = L.marker(
+                [-27.455907, 153.050013],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_16ba4056754a4dfd864a05401ff01fec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8b305662aa6e4aff89b85cad2e543399.setIcon(icon_16ba4056754a4dfd864a05401ff01fec);
+        
+    
+        var popup_cb8d680ab66e4fe8a5e9bd6b658c96f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c09fec071608403c84550f96730e8845 = $(`<div id="html_c09fec071608403c84550f96730e8845" style="width: 100.0%; height: 100.0%;">69 - VERNON TCE / FLORENCE ST</div>`)[0];
+            popup_cb8d680ab66e4fe8a5e9bd6b658c96f0.setContent(html_c09fec071608403c84550f96730e8845);
+        
+
+        marker_8b305662aa6e4aff89b85cad2e543399.bindPopup(popup_cb8d680ab66e4fe8a5e9bd6b658c96f0)
+        ;
+
+        
+    
+    
+            var marker_1dbdc269386747e1b96d0206b9a824d4 = L.marker(
+                [-27.480164, 153.016181],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_fff77548826c489cb3595d73d760eaa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1dbdc269386747e1b96d0206b9a824d4.setIcon(icon_fff77548826c489cb3595d73d760eaa8);
+        
+    
+        var popup_58301c9e929c440686c92b2537216c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2802345c0cd94e9480326e27dc195037 = $(`<div id="html_2802345c0cd94e9480326e27dc195037" style="width: 100.0%; height: 100.0%;">113 - EDMONDSTONE ST / VULTURE ST</div>`)[0];
+            popup_58301c9e929c440686c92b2537216c09.setContent(html_2802345c0cd94e9480326e27dc195037);
+        
+
+        marker_1dbdc269386747e1b96d0206b9a824d4.bindPopup(popup_58301c9e929c440686c92b2537216c09)
+        ;
+
+        
+    
+    
+            var marker_c4de1d3f71ee48dd946a3f80a81ee08f = L.marker(
+                [-27.476724, 153.010063],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d974d92060b249e2ae7f7d7aff841f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c4de1d3f71ee48dd946a3f80a81ee08f.setIcon(icon_d974d92060b249e2ae7f7d7aff841f8e);
+        
+    
+        var popup_c0257d255ad44807a87abf88f804a2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_893094d27cc646f484334d578a78e959 = $(`<div id="html_893094d27cc646f484334d578a78e959" style="width: 100.0%; height: 100.0%;">112 - BANK ST / MOLLISON ST</div>`)[0];
+            popup_c0257d255ad44807a87abf88f804a2b7.setContent(html_893094d27cc646f484334d578a78e959);
+        
+
+        marker_c4de1d3f71ee48dd946a3f80a81ee08f.bindPopup(popup_c0257d255ad44807a87abf88f804a2b7)
+        ;
+
+        
+    
+    
+            var marker_be6ad62f327d4e47b112d3e779d0ff3c = L.marker(
+                [-27.497934, 153.027333],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4bccda8c7b4b454ca661f2d4501828d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_be6ad62f327d4e47b112d3e779d0ff3c.setIcon(icon_4bccda8c7b4b454ca661f2d4501828d0);
+        
+    
+        var popup_b05193ac428d4322899d3e969e21566e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b45d25e40844f1db2b128bc8047651c = $(`<div id="html_9b45d25e40844f1db2b128bc8047651c" style="width: 100.0%; height: 100.0%;">127 - GLADSTONE RD / ANNERLEY RD</div>`)[0];
+            popup_b05193ac428d4322899d3e969e21566e.setContent(html_9b45d25e40844f1db2b128bc8047651c);
+        
+
+        marker_be6ad62f327d4e47b112d3e779d0ff3c.bindPopup(popup_b05193ac428d4322899d3e969e21566e)
+        ;
+
+        
+    
+    
+            var marker_47e14bac243741448c560009978a4236 = L.marker(
+                [-27.478214, 153.006181],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d2a949ce0e9f4d8dba62cc9024a48592 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_47e14bac243741448c560009978a4236.setIcon(icon_d2a949ce0e9f4d8dba62cc9024a48592);
+        
+    
+        var popup_85028f61a4e94c2ab2e69c772724453b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf66001dd884415fb16e99096c454372 = $(`<div id="html_cf66001dd884415fb16e99096c454372" style="width: 100.0%; height: 100.0%;">110 - JANE ST / MONTAGUE RD</div>`)[0];
+            popup_85028f61a4e94c2ab2e69c772724453b.setContent(html_cf66001dd884415fb16e99096c454372);
+        
+
+        marker_47e14bac243741448c560009978a4236.bindPopup(popup_85028f61a4e94c2ab2e69c772724453b)
+        ;
+
+        
+    
+    
+            var marker_ea927ff81140413cbb799852012ef225 = L.marker(
+                [-27.469296, 153.035533],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b633680d299d40418c37970f7e9cd84a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ea927ff81140413cbb799852012ef225.setIcon(icon_b633680d299d40418c37970f7e9cd84a);
+        
+    
+        var popup_8a726d5df46347e6981ec1c0b9f1d54e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10db5066a5dc4703afdb39cbcff4a5db = $(`<div id="html_10db5066a5dc4703afdb39cbcff4a5db" style="width: 100.0%; height: 100.0%;">90 - MAIN ST / ROTHERHAM ST (MAHONEY PARK)</div>`)[0];
+            popup_8a726d5df46347e6981ec1c0b9f1d54e.setContent(html_10db5066a5dc4703afdb39cbcff4a5db);
+        
+
+        marker_ea927ff81140413cbb799852012ef225.bindPopup(popup_8a726d5df46347e6981ec1c0b9f1d54e)
+        ;
+
+        
+    
+    
+            var marker_2303695e49344f6dad1d543c853ae0b0 = L.marker(
+                [-27.467971, 153.009968],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_06e0de6305a74573bef8e03694ddd153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2303695e49344f6dad1d543c853ae0b0.setIcon(icon_06e0de6305a74573bef8e03694ddd153);
+        
+    
+        var popup_0a7725a9f1684476991ce9d2c5c445c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeecf449455a46c9b9bb4636f2dc0e71 = $(`<div id="html_aeecf449455a46c9b9bb4636f2dc0e71" style="width: 100.0%; height: 100.0%;">132 - LITTLE CRIBB ST / BOOMERANG ST</div>`)[0];
+            popup_0a7725a9f1684476991ce9d2c5c445c8.setContent(html_aeecf449455a46c9b9bb4636f2dc0e71);
+        
+
+        marker_2303695e49344f6dad1d543c853ae0b0.bindPopup(popup_0a7725a9f1684476991ce9d2c5c445c8)
+        ;
+
+        
+    
+    
+            var marker_58d13cc82775462ebb75131489991714 = L.marker(
+                [-27.474722, 153.018694],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b2c534566521498d81431fbf60ae8290 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_58d13cc82775462ebb75131489991714.setIcon(icon_b2c534566521498d81431fbf60ae8290);
+        
+    
+        var popup_3606055ec6d445b38f5064b03f4a7210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a96f7f3f2c343208a4bbcd05f3abfa5 = $(`<div id="html_0a96f7f3f2c343208a4bbcd05f3abfa5" style="width: 100.0%; height: 100.0%;">96 - GREY ST / MELBOURNE ST</div>`)[0];
+            popup_3606055ec6d445b38f5064b03f4a7210.setContent(html_0a96f7f3f2c343208a4bbcd05f3abfa5);
+        
+
+        marker_58d13cc82775462ebb75131489991714.bindPopup(popup_3606055ec6d445b38f5064b03f4a7210)
+        ;
+
+        
+    
+    
+            var marker_5def9b93cbb94c87b2dd0ff5094d88ad = L.marker(
+                [-27.466369, 153.029597],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_3d447a69376443b79715398f30518888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5def9b93cbb94c87b2dd0ff5094d88ad.setIcon(icon_3d447a69376443b79715398f30518888);
+        
+    
+        var popup_ffc95aac472e4b1db4c166eac724776c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6416e26260e4db6abb053d297cacce1 = $(`<div id="html_f6416e26260e4db6abb053d297cacce1" style="width: 100.0%; height: 100.0%;">2 - QUEEN ST / EAGLE ST</div>`)[0];
+            popup_ffc95aac472e4b1db4c166eac724776c.setContent(html_f6416e26260e4db6abb053d297cacce1);
+        
+
+        marker_5def9b93cbb94c87b2dd0ff5094d88ad.bindPopup(popup_ffc95aac472e4b1db4c166eac724776c)
+        ;
+
+        
+    
+    
+            var marker_465632b9d1f4445a919019074e7775ca = L.marker(
+                [-27.453195, 153.0401],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_7d3db6399c514d57937b0052e3e56346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_465632b9d1f4445a919019074e7775ca.setIcon(icon_7d3db6399c514d57937b0052e3e56346);
+        
+    
+        var popup_b8b99282ec56478f9895573734a13db8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63a045ab98b4fdb8a843a3839139a21 = $(`<div id="html_d63a045ab98b4fdb8a843a3839139a21" style="width: 100.0%; height: 100.0%;">62 - ANN ST / CHESTER ST</div>`)[0];
+            popup_b8b99282ec56478f9895573734a13db8.setContent(html_d63a045ab98b4fdb8a843a3839139a21);
+        
+
+        marker_465632b9d1f4445a919019074e7775ca.bindPopup(popup_b8b99282ec56478f9895573734a13db8)
+        ;
+
+        
+    
+    
+            var marker_de648ab369604690824ebe81c52e4dbb = L.marker(
+                [-27.471315, 153.026627],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_88519d52ad184aa2a319f44e421866f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_de648ab369604690824ebe81c52e4dbb.setIcon(icon_88519d52ad184aa2a319f44e421866f5);
+        
+    
+        var popup_a70f4c66d3db40c8bd77475d66a76957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3c1687a591547a790063a6189e78532 = $(`<div id="html_f3c1687a591547a790063a6189e78532" style="width: 100.0%; height: 100.0%;">123 - CHARLOTTE ST / ALBERT ST</div>`)[0];
+            popup_a70f4c66d3db40c8bd77475d66a76957.setContent(html_f3c1687a591547a790063a6189e78532);
+        
+
+        marker_de648ab369604690824ebe81c52e4dbb.bindPopup(popup_a70f4c66d3db40c8bd77475d66a76957)
+        ;
+
+        
+    
+    
+            var marker_9521e4208cb7447a9e98523384df0937 = L.marker(
+                [-27.480768, 153.011121],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8d57b2b9ae5a4ac09d83959d98e9fc7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9521e4208cb7447a9e98523384df0937.setIcon(icon_8d57b2b9ae5a4ac09d83959d98e9fc7b);
+        
+    
+        var popup_cf566e2e96be463598b313b9ac90afc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9469391ad8844d1ebcb6fa3a472bb05c = $(`<div id="html_9469391ad8844d1ebcb6fa3a472bb05c" style="width: 100.0%; height: 100.0%;">103 - VULTURE ST / THOMAS ST</div>`)[0];
+            popup_cf566e2e96be463598b313b9ac90afc4.setContent(html_9469391ad8844d1ebcb6fa3a472bb05c);
+        
+
+        marker_9521e4208cb7447a9e98523384df0937.bindPopup(popup_cf566e2e96be463598b313b9ac90afc4)
+        ;
+
+        
+    
+    
+            var marker_a763e2d6d0f04e24a690ed75f797575c = L.marker(
+                [-27.469902, 153.022603],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5c79c111669141c3b2ade843ca7f1abe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a763e2d6d0f04e24a690ed75f797575c.setIcon(icon_5c79c111669141c3b2ade843ca7f1abe);
+        
+    
+        var popup_e65fdef49f6e48ee923903097ca09836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_380054ae587149df8a7f9e65504cefce = $(`<div id="html_380054ae587149df8a7f9e65504cefce" style="width: 100.0%; height: 100.0%;">28 - GEORGE ST / ADELAIDE ST</div>`)[0];
+            popup_e65fdef49f6e48ee923903097ca09836.setContent(html_380054ae587149df8a7f9e65504cefce);
+        
+
+        marker_a763e2d6d0f04e24a690ed75f797575c.bindPopup(popup_e65fdef49f6e48ee923903097ca09836)
+        ;
+
+        
+    
+    
+            var marker_bd155c7221e64d6f86bea4083c4e9076 = L.marker(
+                [-27.453127, 153.037559],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_992c4591509c446ba2646043567ac913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd155c7221e64d6f86bea4083c4e9076.setIcon(icon_992c4591509c446ba2646043567ac913);
+        
+    
+        var popup_6aff5a678004444493edc3681b29ef1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebc65c7a6d8e464b87bebbf84e684de8 = $(`<div id="html_ebc65c7a6d8e464b87bebbf84e684de8" style="width: 100.0%; height: 100.0%;">60 - WICKHAM STREET / BROOKES STREET</div>`)[0];
+            popup_6aff5a678004444493edc3681b29ef1e.setContent(html_ebc65c7a6d8e464b87bebbf84e684de8);
+        
+
+        marker_bd155c7221e64d6f86bea4083c4e9076.bindPopup(popup_6aff5a678004444493edc3681b29ef1e)
+        ;
+
+        
+    
+    
+            var marker_24e235a53c654248accec8518561d7aa = L.marker(
+                [-27.491284, 153.027138],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_dc1e8bfe6e0c4d3ca7c941e97b85be42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_24e235a53c654248accec8518561d7aa.setIcon(icon_dc1e8bfe6e0c4d3ca7c941e97b85be42);
+        
+    
+        var popup_d2897d72546f4bbea95527d5b6978311 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d63e005616248c588f4357ee285cd08 = $(`<div id="html_9d63e005616248c588f4357ee285cd08" style="width: 100.0%; height: 100.0%;">124 - ANNERLEY ROAD / GROVE ST</div>`)[0];
+            popup_d2897d72546f4bbea95527d5b6978311.setContent(html_9d63e005616248c588f4357ee285cd08);
+        
+
+        marker_24e235a53c654248accec8518561d7aa.bindPopup(popup_d2897d72546f4bbea95527d5b6978311)
+        ;
+
+        
+    
+    
+            var marker_6b7da7263a5f4c7ab925245bd59431d1 = L.marker(
+                [-27.471332, 153.022991],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_268e8b6c616047d0af34ece0a4f57dc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6b7da7263a5f4c7ab925245bd59431d1.setIcon(icon_268e8b6c616047d0af34ece0a4f57dc4);
+        
+    
+        var popup_4cafe358c784411f8a042924864851cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1adad9df4e9048be8cf2f02e85c80c56 = $(`<div id="html_1adad9df4e9048be8cf2f02e85c80c56" style="width: 100.0%; height: 100.0%;">25 - REDDACLIFF PL / QUEEN ST</div>`)[0];
+            popup_4cafe358c784411f8a042924864851cb.setContent(html_1adad9df4e9048be8cf2f02e85c80c56);
+        
+
+        marker_6b7da7263a5f4c7ab925245bd59431d1.bindPopup(popup_4cafe358c784411f8a042924864851cb)
+        ;
+
+        
+    
+    
+            var marker_78a6244ba49a49e8a2e6923e2e279208 = L.marker(
+                [-27.479876, 153.021076],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b83d47d21b1f40ceb9596d39061b7c6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_78a6244ba49a49e8a2e6923e2e279208.setIcon(icon_b83d47d21b1f40ceb9596d39061b7c6e);
+        
+    
+        var popup_c52be60b414244a9a16925a17970cdee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56584735ee5844198b565e49366c4d45 = $(`<div id="html_56584735ee5844198b565e49366c4d45" style="width: 100.0%; height: 100.0%;">114 - COLCHESTER ST / ERNEST ST</div>`)[0];
+            popup_c52be60b414244a9a16925a17970cdee.setContent(html_56584735ee5844198b565e49366c4d45);
+        
+
+        marker_78a6244ba49a49e8a2e6923e2e279208.bindPopup(popup_c52be60b414244a9a16925a17970cdee)
+        ;
+
+        
+    
+    
+            var marker_d1edd05464114eb2aced2af9195c5dcd = L.marker(
+                [-27.448074, 153.045762],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5934a3aee61644fc869aa65534400a72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d1edd05464114eb2aced2af9195c5dcd.setIcon(icon_5934a3aee61644fc869aa65534400a72);
+        
+    
+        var popup_adadd66f846948fe8896928b7152e249 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45b17f5415a54da98f29c2ae0b5b80a9 = $(`<div id="html_45b17f5415a54da98f29c2ae0b5b80a9" style="width: 100.0%; height: 100.0%;">76 - WATERLOO ST (GASWORKS PARK) / NEWSTEAD TCE</div>`)[0];
+            popup_adadd66f846948fe8896928b7152e249.setContent(html_45b17f5415a54da98f29c2ae0b5b80a9);
+        
+
+        marker_d1edd05464114eb2aced2af9195c5dcd.bindPopup(popup_adadd66f846948fe8896928b7152e249)
+        ;
+
+        
+    
+    
+            var marker_63439583d3974b1e94fc13456d9175ab = L.marker(
+                [-27.474227, 153.011164],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4bfb3bcd82fa4402b29b0dadd534936b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63439583d3974b1e94fc13456d9175ab.setIcon(icon_4bfb3bcd82fa4402b29b0dadd534936b);
+        
+    
+        var popup_3f8c6e04049940b28b43766771d6258e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2520ed8aeca47c4aefb90db22dc3040 = $(`<div id="html_f2520ed8aeca47c4aefb90db22dc3040" style="width: 100.0%; height: 100.0%;">115 - MONTAGUE RD / BRERETON ST</div>`)[0];
+            popup_3f8c6e04049940b28b43766771d6258e.setContent(html_f2520ed8aeca47c4aefb90db22dc3040);
+        
+
+        marker_63439583d3974b1e94fc13456d9175ab.bindPopup(popup_3f8c6e04049940b28b43766771d6258e)
+        ;
+
+        
+    
+    
+            var marker_25b7fc1ff3ae4f85a9c8aaa1f2ea9e9f = L.marker(
+                [-27.467963, 153.0231],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_e2c0d7d10792492f85fa24c499565a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_25b7fc1ff3ae4f85a9c8aaa1f2ea9e9f.setIcon(icon_e2c0d7d10792492f85fa24c499565a9d);
+        
+    
+        var popup_49ce978bcdea45089e0f7d64a2aa4ecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a15cd0a109a43fa8f70dbe27407caa8 = $(`<div id="html_1a15cd0a109a43fa8f70dbe27407caa8" style="width: 100.0%; height: 100.0%;">30 - ROMA ST / ANN ST</div>`)[0];
+            popup_49ce978bcdea45089e0f7d64a2aa4ecb.setContent(html_1a15cd0a109a43fa8f70dbe27407caa8);
+        
+
+        marker_25b7fc1ff3ae4f85a9c8aaa1f2ea9e9f.bindPopup(popup_49ce978bcdea45089e0f7d64a2aa4ecb)
+        ;
+
+        
+    
+    
+            var marker_52a18b4ca536460d887f9aecc67c37b3 = L.marker(
+                [-27.44979, 153.044925],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_644ab7f089034d55b1979361acdf126a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_52a18b4ca536460d887f9aecc67c37b3.setIcon(icon_644ab7f089034d55b1979361acdf126a);
+        
+    
+        var popup_e0f3e62e7f54414b949e7611e31aa6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22cefeac2e944136b34a1910c111b216 = $(`<div id="html_22cefeac2e944136b34a1910c111b216" style="width: 100.0%; height: 100.0%;">64 - SKYRING TCE / CUNNINGHAM ST</div>`)[0];
+            popup_e0f3e62e7f54414b949e7611e31aa6f0.setContent(html_22cefeac2e944136b34a1910c111b216);
+        
+
+        marker_52a18b4ca536460d887f9aecc67c37b3.bindPopup(popup_e0f3e62e7f54414b949e7611e31aa6f0)
+        ;
+
+        
+    
+    
+            var marker_1c45c7f6f12745e4ba2d0ce4d5652125 = L.marker(
+                [-27.471025, 153.034306],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d0761c573b8c4a39aba77cf73f578c9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1c45c7f6f12745e4ba2d0ce4d5652125.setIcon(icon_d0761c573b8c4a39aba77cf73f578c9c);
+        
+    
+        var popup_8d6b71ed2e7b4ede937654a98b7fd344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d9cf9378b44694bd5ad8389aad7e39 = $(`<div id="html_85d9cf9378b44694bd5ad8389aad7e39" style="width: 100.0%; height: 100.0%;">92 - THORNTON ST FERRY TERMINAL / MAIN ST</div>`)[0];
+            popup_8d6b71ed2e7b4ede937654a98b7fd344.setContent(html_85d9cf9378b44694bd5ad8389aad7e39);
+        
+
+        marker_1c45c7f6f12745e4ba2d0ce4d5652125.bindPopup(popup_8d6b71ed2e7b4ede937654a98b7fd344)
+        ;
+
+        
+    
+    
+            var marker_319495a032f9482bb052f4acc96b7a0d = L.marker(
+                [-27.474755, 153.016687],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_830b3bde9085418b9168cf9d485119f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_319495a032f9482bb052f4acc96b7a0d.setIcon(icon_830b3bde9085418b9168cf9d485119f1);
+        
+    
+        var popup_a08734348635448a89eb7ad64a8ab7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9175b2db27747aeaa7f0df18e0e1bc4 = $(`<div id="html_a9175b2db27747aeaa7f0df18e0e1bc4" style="width: 100.0%; height: 100.0%;">118 - MELBOURNE ST / MERIVALE ST</div>`)[0];
+            popup_a08734348635448a89eb7ad64a8ab7eb.setContent(html_a9175b2db27747aeaa7f0df18e0e1bc4);
+        
+
+        marker_319495a032f9482bb052f4acc96b7a0d.bindPopup(popup_a08734348635448a89eb7ad64a8ab7eb)
+        ;
+
+        
+    
+    
+            var marker_c3e89c538bef440c9520594e0fdd5a67 = L.marker(
+                [-27.460914, 153.04987],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_930717a86d69482b8a7ab57bb123e5f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c3e89c538bef440c9520594e0fdd5a67.setIcon(icon_930717a86d69482b8a7ab57bb123e5f9);
+        
+    
+        var popup_668846d4cf2544828293d47b8cc517af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5137528e6924ed6ae1cf17d282fbb3d = $(`<div id="html_d5137528e6924ed6ae1cf17d282fbb3d" style="width: 100.0%; height: 100.0%;">71 - HASTINGS ST / MACQUARIE ST</div>`)[0];
+            popup_668846d4cf2544828293d47b8cc517af.setContent(html_d5137528e6924ed6ae1cf17d282fbb3d);
+        
+
+        marker_c3e89c538bef440c9520594e0fdd5a67.bindPopup(popup_668846d4cf2544828293d47b8cc517af)
+        ;
+
+        
+    
+    
+            var marker_3f19005c53b749aea80fc87d6b0fa4de = L.marker(
+                [-27.469501, 153.004129],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d66941e4d16e43b8be6344dd881f5ce3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3f19005c53b749aea80fc87d6b0fa4de.setIcon(icon_d66941e4d16e43b8be6344dd881f5ce3);
+        
+    
+        var popup_f7dc983d2f964e08abfe899889a83f4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbd984ace1cd459b93f551576b440e7e = $(`<div id="html_fbd984ace1cd459b93f551576b440e7e" style="width: 100.0%; height: 100.0%;">135 - PARK RD / RAILWAY TCE</div>`)[0];
+            popup_f7dc983d2f964e08abfe899889a83f4f.setContent(html_fbd984ace1cd459b93f551576b440e7e);
+        
+
+        marker_3f19005c53b749aea80fc87d6b0fa4de.bindPopup(popup_f7dc983d2f964e08abfe899889a83f4f)
+        ;
+
+        
+    
+    
+            var marker_a0aa6455432c4ca58811f4550db318fd = L.marker(
+                [-27.485078, 153.002382],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_6a67a8a7f1c54b0993d3b3947b589c53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a0aa6455432c4ca58811f4550db318fd.setIcon(icon_6a67a8a7f1c54b0993d3b3947b589c53);
+        
+    
+        var popup_7c5d04374c5a45eda7e3bc5e873c3674 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b13bb6ecddee481faa5842d62baa127d = $(`<div id="html_b13bb6ecddee481faa5842d62baa127d" style="width: 100.0%; height: 100.0%;">108 - ROGERS ST / MONTAGUE RD</div>`)[0];
+            popup_7c5d04374c5a45eda7e3bc5e873c3674.setContent(html_b13bb6ecddee481faa5842d62baa127d);
+        
+
+        marker_a0aa6455432c4ca58811f4550db318fd.bindPopup(popup_7c5d04374c5a45eda7e3bc5e873c3674)
+        ;
+
+        
+    
+    
+            var marker_8e5226a711d645af8b70b7dcf2e73300 = L.marker(
+                [-27.476474, 153.008182],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_488b3b76e91c4738b8397b155518fd5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8e5226a711d645af8b70b7dcf2e73300.setIcon(icon_488b3b76e91c4738b8397b155518fd5d);
+        
+    
+        var popup_a22f07cf9855428a839eddff8c985477 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a24ed8c3b20e4be6982890c68f5f5aac = $(`<div id="html_a24ed8c3b20e4be6982890c68f5f5aac" style="width: 100.0%; height: 100.0%;">111 - DONKIN ST / MONTAGUE RD</div>`)[0];
+            popup_a22f07cf9855428a839eddff8c985477.setContent(html_a24ed8c3b20e4be6982890c68f5f5aac);
+        
+
+        marker_8e5226a711d645af8b70b7dcf2e73300.bindPopup(popup_a22f07cf9855428a839eddff8c985477)
+        ;
+
+        
+    
+    
+            var marker_cdcc0ab6c63a46e083c9d92b1b5d53e0 = L.marker(
+                [-27.461984, 153.031782],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_3f4a40fb33084dcdbfc154aedb3e4ce4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cdcc0ab6c63a46e083c9d92b1b5d53e0.setIcon(icon_3f4a40fb33084dcdbfc154aedb3e4ce4);
+        
+    
+        var popup_9210d2507e934f229a8650b7d9f4b752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f54bafa5f3b8462a9a89c8fa8e3ef216 = $(`<div id="html_f54bafa5f3b8462a9a89c8fa8e3ef216" style="width: 100.0%; height: 100.0%;">46 - ANN ST / BOUNDARY ST</div>`)[0];
+            popup_9210d2507e934f229a8650b7d9f4b752.setContent(html_f54bafa5f3b8462a9a89c8fa8e3ef216);
+        
+
+        marker_cdcc0ab6c63a46e083c9d92b1b5d53e0.bindPopup(popup_9210d2507e934f229a8650b7d9f4b752)
+        ;
+
+        
+    
+    
+            var marker_ac7164a5c33342fb95e4fd5afeeb63a6 = L.marker(
+                [-27.472598, 153.028383],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_a7d6177897a24c0aa0041b74f7509ead = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ac7164a5c33342fb95e4fd5afeeb63a6.setIcon(icon_a7d6177897a24c0aa0041b74f7509ead);
+        
+    
+        var popup_f0dccfec6a2a445dabac2a6b887bb1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5530731c9e3440acbf5c1c81e444a037 = $(`<div id="html_5530731c9e3440acbf5c1c81e444a037" style="width: 100.0%; height: 100.0%;">17 - MARGARET ST / ALBERT ST</div>`)[0];
+            popup_f0dccfec6a2a445dabac2a6b887bb1f3.setContent(html_5530731c9e3440acbf5c1c81e444a037);
+        
+
+        marker_ac7164a5c33342fb95e4fd5afeeb63a6.bindPopup(popup_f0dccfec6a2a445dabac2a6b887bb1f3)
+        ;
+
+        
+    
+    
+            var marker_2ff6cb631787440cba5c0aae67f549ab = L.marker(
+                [-27.48872, 152.999585],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_1f5a942001b64e5d82aa01509a4f63fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2ff6cb631787440cba5c0aae67f549ab.setIcon(icon_1f5a942001b64e5d82aa01509a4f63fb);
+        
+    
+        var popup_91320b4a1c1a45ffa18ae504adf6381b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a18b4bbe1093457e960784c0f236443d = $(`<div id="html_a18b4bbe1093457e960784c0f236443d" style="width: 100.0%; height: 100.0%;">107 - DRURY ST / MONTAGUE RD</div>`)[0];
+            popup_91320b4a1c1a45ffa18ae504adf6381b.setContent(html_a18b4bbe1093457e960784c0f236443d);
+        
+
+        marker_2ff6cb631787440cba5c0aae67f549ab.bindPopup(popup_91320b4a1c1a45ffa18ae504adf6381b)
+        ;
+
+        
+    
+    
+            var marker_a2d3b7bd2a2b4cc7af5186f21987ff5b = L.marker(
+                [-27.467556, 153.029202],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_db17dda7688d4e40a6fab5b3616581d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a2d3b7bd2a2b4cc7af5186f21987ff5b.setIcon(icon_db17dda7688d4e40a6fab5b3616581d0);
+        
+    
+        var popup_81c2ea21750a479d84568313509286c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2852ddbb79d41db8339927af9790763 = $(`<div id="html_c2852ddbb79d41db8339927af9790763" style="width: 100.0%; height: 100.0%;">3 - CREEK ST / ELIZABETH ST</div>`)[0];
+            popup_81c2ea21750a479d84568313509286c1.setContent(html_c2852ddbb79d41db8339927af9790763);
+        
+
+        marker_a2d3b7bd2a2b4cc7af5186f21987ff5b.bindPopup(popup_81c2ea21750a479d84568313509286c1)
+        ;
+
+        
+    
+    
+            var marker_3f258c40343e407197c211ee665be17b = L.marker(
+                [-27.465733, 153.034329],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_eb17d622e7c144259ccf9bdfbae76208 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3f258c40343e407197c211ee665be17b.setIcon(icon_eb17d622e7c144259ccf9bdfbae76208);
+        
+    
+        var popup_87a93474b6694ba597888b43ded7cedc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80dd5391ed0a48c08ff8399aea39cf81 = $(`<div id="html_80dd5391ed0a48c08ff8399aea39cf81" style="width: 100.0%; height: 100.0%;">89 - HOLMAN ST / MAIN ST</div>`)[0];
+            popup_87a93474b6694ba597888b43ded7cedc.setContent(html_80dd5391ed0a48c08ff8399aea39cf81);
+        
+
+        marker_3f258c40343e407197c211ee665be17b.bindPopup(popup_87a93474b6694ba597888b43ded7cedc)
+        ;
+
+        
+    
+    
+            var marker_0646041e38064186b5dabf77e6b42879 = L.marker(
+                [-27.466753, 153.020012],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_709e7f4850d94046985016fa4d2c5cf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0646041e38064186b5dabf77e6b42879.setIcon(icon_709e7f4850d94046985016fa4d2c5cf2);
+        
+    
+        var popup_5ac2029a10b24e97a2194c0f320df760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d279324e9124ba6be0bfbf1c07ae6a0 = $(`<div id="html_6d279324e9124ba6be0bfbf1c07ae6a0" style="width: 100.0%; height: 100.0%;">33 - ROMA ST / HERSCHEL ST</div>`)[0];
+            popup_5ac2029a10b24e97a2194c0f320df760.setContent(html_6d279324e9124ba6be0bfbf1c07ae6a0);
+        
+
+        marker_0646041e38064186b5dabf77e6b42879.bindPopup(popup_5ac2029a10b24e97a2194c0f320df760)
+        ;
+
+        
+    
+    
+            var marker_f9fbd6f5446647f6996b8ef4620593b7 = L.marker(
+                [-27.466032, 153.01476],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_e410ad4ccb364cfe960c09f9f990042e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f9fbd6f5446647f6996b8ef4620593b7.setIcon(icon_e410ad4ccb364cfe960c09f9f990042e);
+        
+    
+        var popup_e2f69e9e88564d288d73da6f6df69b25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7a263b4e814900ae4b6996488264d1 = $(`<div id="html_8b7a263b4e814900ae4b6996488264d1" style="width: 100.0%; height: 100.0%;">37 - UPPER ROMA ST / EAGLE TCE</div>`)[0];
+            popup_e2f69e9e88564d288d73da6f6df69b25.setContent(html_8b7a263b4e814900ae4b6996488264d1);
+        
+
+        marker_f9fbd6f5446647f6996b8ef4620593b7.bindPopup(popup_e2f69e9e88564d288d73da6f6df69b25)
+        ;
+
+        
+    
+    
+            var marker_c364ca7890e440159543f0c84af88171 = L.marker(
+                [-27.482562, 153.011831],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ac180f70eabe4e06b1467435f9ba871f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c364ca7890e440159543f0c84af88171.setIcon(icon_ac180f70eabe4e06b1467435f9ba871f);
+        
+    
+        var popup_327f565c3e0a40b8a8882eac7b422aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b685d9f2d7b645329ff4d78998bf01b0 = $(`<div id="html_b685d9f2d7b645329ff4d78998bf01b0" style="width: 100.0%; height: 100.0%;">120 - BOUNDARY ST / VULTURE ST</div>`)[0];
+            popup_327f565c3e0a40b8a8882eac7b422aca.setContent(html_b685d9f2d7b645329ff4d78998bf01b0);
+        
+
+        marker_c364ca7890e440159543f0c84af88171.bindPopup(popup_327f565c3e0a40b8a8882eac7b422aca)
+        ;
+
+        
+    
+    
+            var marker_121a25ecb0564f57b4d66a75f6ecbff0 = L.marker(
+                [-27.468407, 153.048273],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_376167b93b404184a0a2563248f8e104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_121a25ecb0564f57b4d66a75f6ecbff0.setIcon(icon_376167b93b404184a0a2563248f8e104);
+        
+    
+        var popup_7533ffd98ccc4e749e6e00f46ef0455d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd68b13e3acc49c3b10b1d83906bbbea = $(`<div id="html_fd68b13e3acc49c3b10b1d83906bbbea" style="width: 100.0%; height: 100.0%;">83 - SYDNEY ST / BRUNSWICK ST</div>`)[0];
+            popup_7533ffd98ccc4e749e6e00f46ef0455d.setContent(html_fd68b13e3acc49c3b10b1d83906bbbea);
+        
+
+        marker_121a25ecb0564f57b4d66a75f6ecbff0.bindPopup(popup_7533ffd98ccc4e749e6e00f46ef0455d)
+        ;
+
+        
+    
+    
+            var marker_32531a8282ad40a987114c4c10c2f53d = L.marker(
+                [-27.478846, 153.028296],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_27e033c3f88849528cf8a725814e3d12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_32531a8282ad40a987114c4c10c2f53d.setIcon(icon_27e033c3f88849528cf8a725814e3d12);
+        
+    
+        var popup_7a6a669849734fcdbb485a13268a82b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0eedb0c7be94d6187484578ff2a7d3e = $(`<div id="html_d0eedb0c7be94d6187484578ff2a7d3e" style="width: 100.0%; height: 100.0%;">20 - GARDENS POINT RD / SE OF GOODWILL BRIDGE</div>`)[0];
+            popup_7a6a669849734fcdbb485a13268a82b1.setContent(html_d0eedb0c7be94d6187484578ff2a7d3e);
+        
+
+        marker_32531a8282ad40a987114c4c10c2f53d.bindPopup(popup_7a6a669849734fcdbb485a13268a82b1)
+        ;
+
+        
+    
+    
+            var marker_da325d4f4cec4fc29a52c67669e76b95 = L.marker(
+                [-27.471481, 153.051966],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_f7f1c59c47a041db9931042b87d08741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_da325d4f4cec4fc29a52c67669e76b95.setIcon(icon_f7f1c59c47a041db9931042b87d08741);
+        
+    
+        var popup_b9c9f12d77684a3685cf484e676e6ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54550278a8b142ba9b9d7942cc6b43b5 = $(`<div id="html_54550278a8b142ba9b9d7942cc6b43b5" style="width: 100.0%; height: 100.0%;">84 - NEW FARM FERRY TERMINAL / NEW FARM PARK</div>`)[0];
+            popup_b9c9f12d77684a3685cf484e676e6ac4.setContent(html_54550278a8b142ba9b9d7942cc6b43b5);
+        
+
+        marker_da325d4f4cec4fc29a52c67669e76b95.bindPopup(popup_b9c9f12d77684a3685cf484e676e6ac4)
+        ;
+
+        
+    
+    
+            var marker_b438af1e4e6649368dc14d6e857aebba = L.marker(
+                [-27.478032, 153.034186],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_30a27949744144f1bfdce6e7f02bc462 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b438af1e4e6649368dc14d6e857aebba.setIcon(icon_30a27949744144f1bfdce6e7f02bc462);
+        
+    
+        var popup_093a3256f0164a06b342775fec75cfc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdabd7a9967b46658af84ca164a22667 = $(`<div id="html_fdabd7a9967b46658af84ca164a22667" style="width: 100.0%; height: 100.0%;">129 - LOWER RIVER TCE / PARKLANDS</div>`)[0];
+            popup_093a3256f0164a06b342775fec75cfc4.setContent(html_fdabd7a9967b46658af84ca164a22667);
+        
+
+        marker_b438af1e4e6649368dc14d6e857aebba.bindPopup(popup_093a3256f0164a06b342775fec75cfc4)
+        ;
+
+        
+    
+    
+            var marker_1e13e53799df4aa188bf94de1da14dfc = L.marker(
+                [-27.479149, 153.012132],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_f53809e3b36f49499bd6f57ac38c5256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1e13e53799df4aa188bf94de1da14dfc.setIcon(icon_f53809e3b36f49499bd6f57ac38c5256);
+        
+    
+        var popup_c7045b81c82a45c19da97a2c953d66a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e1519c17a9242b69826f94ef35729f2 = $(`<div id="html_9e1519c17a9242b69826f94ef35729f2" style="width: 100.0%; height: 100.0%;">126 - JANE ST / BOUNDARY ST</div>`)[0];
+            popup_c7045b81c82a45c19da97a2c953d66a8.setContent(html_9e1519c17a9242b69826f94ef35729f2);
+        
+
+        marker_1e13e53799df4aa188bf94de1da14dfc.bindPopup(popup_c7045b81c82a45c19da97a2c953d66a8)
+        ;
+
+        
+    
+    
+            var marker_d56e491ed15c4bd9b93bee56ad97538c = L.marker(
+                [-27.487155, 153.007281],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b12458a81af84a568ada20c30bbce1aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d56e491ed15c4bd9b93bee56ad97538c.setIcon(icon_b12458a81af84a568ada20c30bbce1aa);
+        
+    
+        var popup_8b7f82af217c48cbb3ea5bf13c82949e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37edccb7f3e34833a237ad3aac82bc26 = $(`<div id="html_37edccb7f3e34833a237ad3aac82bc26" style="width: 100.0%; height: 100.0%;">105 - DORNOCH TCE / HARDGRAVE RD</div>`)[0];
+            popup_8b7f82af217c48cbb3ea5bf13c82949e.setContent(html_37edccb7f3e34833a237ad3aac82bc26);
+        
+
+        marker_d56e491ed15c4bd9b93bee56ad97538c.bindPopup(popup_8b7f82af217c48cbb3ea5bf13c82949e)
+        ;
+
+        
+    
+    
+            var marker_1c948d26449640d4a14852b88d75af3d = L.marker(
+                [-27.480885, 153.014585],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d764a2bf22d94722a670a3f037bfab7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1c948d26449640d4a14852b88d75af3d.setIcon(icon_d764a2bf22d94722a670a3f037bfab7a);
+        
+    
+        var popup_e560801b118343fb90858b19b3ff6e72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e91bfb928a94606a6465a436d57ae01 = $(`<div id="html_1e91bfb928a94606a6465a436d57ae01" style="width: 100.0%; height: 100.0%;">102 - BESANT ST / VULTURE ST</div>`)[0];
+            popup_e560801b118343fb90858b19b3ff6e72.setContent(html_1e91bfb928a94606a6465a436d57ae01);
+        
+
+        marker_1c948d26449640d4a14852b88d75af3d.bindPopup(popup_e560801b118343fb90858b19b3ff6e72)
+        ;
+
+        
+    
+    
+            var marker_13dc24540f0348b5b7932b86773dcaeb = L.marker(
+                [-27.47148, 153.029647],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8fd27e7efdf14dc5b0e334b7d94d1099 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_13dc24540f0348b5b7932b86773dcaeb.setIcon(icon_8fd27e7efdf14dc5b0e334b7d94d1099);
+        
+    
+        var popup_eef0331ae4924e0b8963fab407c41bc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c98eadad1474b14a8cba52379df0cee = $(`<div id="html_8c98eadad1474b14a8cba52379df0cee" style="width: 100.0%; height: 100.0%;">7 - MARGARET STREET / EDWARD STREET</div>`)[0];
+            popup_eef0331ae4924e0b8963fab407c41bc0.setContent(html_8c98eadad1474b14a8cba52379df0cee);
+        
+
+        marker_13dc24540f0348b5b7932b86773dcaeb.bindPopup(popup_eef0331ae4924e0b8963fab407c41bc0)
+        ;
+
+        
+    
+    
+            var marker_3b941283db354857bb37e7307d621480 = L.marker(
+                [-27.478653, 153.019123],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d0924296e52544baa0463803ef960afe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3b941283db354857bb37e7307d621480.setIcon(icon_d0924296e52544baa0463803ef960afe);
+        
+    
+        var popup_b0dcb0f0740d42feb82e2ac315938485 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0758d26a98f54fe0af1da9e93b67ceb4 = $(`<div id="html_0758d26a98f54fe0af1da9e93b67ceb4" style="width: 100.0%; height: 100.0%;">94 - GLENELG ST / MERIVALE ST</div>`)[0];
+            popup_b0dcb0f0740d42feb82e2ac315938485.setContent(html_0758d26a98f54fe0af1da9e93b67ceb4);
+        
+
+        marker_3b941283db354857bb37e7307d621480.bindPopup(popup_b0dcb0f0740d42feb82e2ac315938485)
+        ;
+
+        
+    
+    
+            var marker_cac351ea65944cfca0929d171c148a6c = L.marker(
+                [-27.489807, 153.002405],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_3be342e93cac487f83c09259cfeba09b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cac351ea65944cfca0929d171c148a6c.setIcon(icon_3be342e93cac487f83c09259cfeba09b);
+        
+    
+        var popup_2bfb087bd35b4caea72bacd6236cc929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9713c44a58c4b858a18cd131e1278d3 = $(`<div id="html_b9713c44a58c4b858a18cd131e1278d3" style="width: 100.0%; height: 100.0%;">106 - ORLEIGH ST / HOOGLEY ST</div>`)[0];
+            popup_2bfb087bd35b4caea72bacd6236cc929.setContent(html_b9713c44a58c4b858a18cd131e1278d3);
+        
+
+        marker_cac351ea65944cfca0929d171c148a6c.bindPopup(popup_2bfb087bd35b4caea72bacd6236cc929)
+        ;
+
+        
+    
+    
+            var marker_4eac1fa119ad4b3bba6b0eb0edb62f74 = L.marker(
+                [-27.47666, 153.013287],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d219209d1bda4abb9ac32154a15e8d28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4eac1fa119ad4b3bba6b0eb0edb62f74.setIcon(icon_d219209d1bda4abb9ac32154a15e8d28);
+        
+    
+        var popup_00a9f063158941e48a88565907b2e006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c746d995af340a0b57fb8aa4696b62b = $(`<div id="html_3c746d995af340a0b57fb8aa4696b62b" style="width: 100.0%; height: 100.0%;">100 - MELBOURNE ST / EDMONDSTONE ST</div>`)[0];
+            popup_00a9f063158941e48a88565907b2e006.setContent(html_3c746d995af340a0b57fb8aa4696b62b);
+        
+
+        marker_4eac1fa119ad4b3bba6b0eb0edb62f74.bindPopup(popup_00a9f063158941e48a88565907b2e006)
+        ;
+
+        
+    
+    
+            var marker_cd37b042257f44109fa187fcb6ceaf75 = L.marker(
+                [-27.451793, 153.039562],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5258ffd2d6734234aed10dd2a2f2474e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cd37b042257f44109fa187fcb6ceaf75.setIcon(icon_5258ffd2d6734234aed10dd2a2f2474e);
+        
+    
+        var popup_93dd0fb8b73049bda66e526a3276c914 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dffae0de9964eb390ab66f0b127ce77 = $(`<div id="html_8dffae0de9964eb390ab66f0b127ce77" style="width: 100.0%; height: 100.0%;">61 - WICKHAM ST / MURRI WAY</div>`)[0];
+            popup_93dd0fb8b73049bda66e526a3276c914.setContent(html_8dffae0de9964eb390ab66f0b127ce77);
+        
+
+        marker_cd37b042257f44109fa187fcb6ceaf75.bindPopup(popup_93dd0fb8b73049bda66e526a3276c914)
+        ;
+
+        
+    
+    
+            var marker_824bfd01a0ee44c987ed15448580611e = L.marker(
+                [-27.45663, 153.032779],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_bf24c548bd5d49a0bde5cf139ab2068a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_824bfd01a0ee44c987ed15448580611e.setIcon(icon_bf24c548bd5d49a0bde5cf139ab2068a);
+        
+    
+        var popup_97f918191acd4b039317fa092963d0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24a836dda3eb4147b85abd7f8ac5b556 = $(`<div id="html_24a836dda3eb4147b85abd7f8ac5b556" style="width: 100.0%; height: 100.0%;">51 - BRUNSWICK ST / ALFRED ST</div>`)[0];
+            popup_97f918191acd4b039317fa092963d0c0.setContent(html_24a836dda3eb4147b85abd7f8ac5b556);
+        
+
+        marker_824bfd01a0ee44c987ed15448580611e.bindPopup(popup_97f918191acd4b039317fa092963d0c0)
+        ;
+
+        
+    
+    
+            var marker_36fb637bb0b6485d8c958146987f4029 = L.marker(
+                [-27.45296, 153.048107],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_2303cf7a29fb493a9af8fe8a3b6c198d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_36fb637bb0b6485d8c958146987f4029.setIcon(icon_2303cf7a29fb493a9af8fe8a3b6c198d);
+        
+    
+        var popup_3dc25bd3ddca4342b09ae42a632f9d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b96d82562b314f1e85198918f6964c9e = $(`<div id="html_b96d82562b314f1e85198918f6964c9e" style="width: 100.0%; height: 100.0%;">66 - COMMERCIAL RD / SKYRING TCE</div>`)[0];
+            popup_3dc25bd3ddca4342b09ae42a632f9d6b.setContent(html_b96d82562b314f1e85198918f6964c9e);
+        
+
+        marker_36fb637bb0b6485d8c958146987f4029.bindPopup(popup_3dc25bd3ddca4342b09ae42a632f9d6b)
+        ;
+
+        
+    
+    
+            var marker_bb353f0dbf464e4093646c1161bb3039 = L.marker(
+                [-27.485075, 152.990627],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_6a60f99b2ac94b41a7b280c980ccae9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bb353f0dbf464e4093646c1161bb3039.setIcon(icon_6a60f99b2ac94b41a7b280c980ccae9a);
+        
+    
+        var popup_eeb7e379c23c4d87b045a0ec3c077140 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66b078909ca94442b0543468bafaea15 = $(`<div id="html_66b078909ca94442b0543468bafaea15" style="width: 100.0%; height: 100.0%;">144 - JEPHSON ST / SHERWOOD RD</div>`)[0];
+            popup_eeb7e379c23c4d87b045a0ec3c077140.setContent(html_66b078909ca94442b0543468bafaea15);
+        
+
+        marker_bb353f0dbf464e4093646c1161bb3039.bindPopup(popup_eeb7e379c23c4d87b045a0ec3c077140)
+        ;
+
+        
+    
+    
+            var marker_58b5f57a1d314c53ae449d590dc4fdfe = L.marker(
+                [-27.492489, 152.996768],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_5e6d2254750d4b6b9fd2b8c707826314 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_58b5f57a1d314c53ae449d590dc4fdfe.setIcon(icon_5e6d2254750d4b6b9fd2b8c707826314);
+        
+    
+        var popup_73b15d54810a41199c5edbd18bdabf09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38ff431e3bd04ced8e48646853dbc57b = $(`<div id="html_38ff431e3bd04ced8e48646853dbc57b" style="width: 100.0%; height: 100.0%;">148 - SANDFORD ST / AUSTRAL ST</div>`)[0];
+            popup_73b15d54810a41199c5edbd18bdabf09.setContent(html_38ff431e3bd04ced8e48646853dbc57b);
+        
+
+        marker_58b5f57a1d314c53ae449d590dc4fdfe.bindPopup(popup_73b15d54810a41199c5edbd18bdabf09)
+        ;
+
+        
+    
+    
+            var marker_428e7fa3e64c4fd1979dffe950597278 = L.marker(
+                [-27.487187, 152.993052],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_4e4b7ee281f74112a51333868affff2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_428e7fa3e64c4fd1979dffe950597278.setIcon(icon_4e4b7ee281f74112a51333868affff2c);
+        
+    
+        var popup_ee7005e0a89e42408657b35a03dbe512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2c76ed2a4d74eaf845f6714b46fd41e = $(`<div id="html_d2c76ed2a4d74eaf845f6714b46fd41e" style="width: 100.0%; height: 100.0%;">146 - BRISBANE ST / GLEN RD</div>`)[0];
+            popup_ee7005e0a89e42408657b35a03dbe512.setContent(html_d2c76ed2a4d74eaf845f6714b46fd41e);
+        
+
+        marker_428e7fa3e64c4fd1979dffe950597278.bindPopup(popup_ee7005e0a89e42408657b35a03dbe512)
+        ;
+
+        
+    
+    
+            var marker_011225e130954ef69a3f68996334fbc7 = L.marker(
+                [-27.464647, 153.029361],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_0cb525fc5a1c46f085303dd3a8696829 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_011225e130954ef69a3f68996334fbc7.setIcon(icon_0cb525fc5a1c46f085303dd3a8696829);
+        
+    
+        var popup_86b39afc703f4e5fb4e5ef17d295dbe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ece13bbb8441b5914df46057a5cc61 = $(`<div id="html_e5ece13bbb8441b5914df46057a5cc61" style="width: 100.0%; height: 100.0%;">42 - WHARF STREET / ADELAIDE STREET</div>`)[0];
+            popup_86b39afc703f4e5fb4e5ef17d295dbe5.setContent(html_e5ece13bbb8441b5914df46057a5cc61);
+        
+
+        marker_011225e130954ef69a3f68996334fbc7.bindPopup(popup_86b39afc703f4e5fb4e5ef17d295dbe5)
+        ;
+
+        
+    
+    
+            var marker_774d8f1c8a004005aa707a5ceb1a8ace = L.marker(
+                [-27.468206, 153.026744],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_a20fe6fa42c04db887eb48e293880e68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_774d8f1c8a004005aa707a5ceb1a8ace.setIcon(icon_a20fe6fa42c04db887eb48e293880e68);
+        
+    
+        var popup_0f9a41cedb60458886f628689f84be6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c9cef904f974faa932a8cf8e8434e84 = $(`<div id="html_0c9cef904f974faa932a8cf8e8434e84" style="width: 100.0%; height: 100.0%;">10 - EDWARD STREET / QUEEN STREET</div>`)[0];
+            popup_0f9a41cedb60458886f628689f84be6f.setContent(html_0c9cef904f974faa932a8cf8e8434e84);
+        
+
+        marker_774d8f1c8a004005aa707a5ceb1a8ace.bindPopup(popup_0f9a41cedb60458886f628689f84be6f)
+        ;
+
+        
+    
+    
+            var marker_0bd0b08d8929429dbf1ce2132e2dfa2b = L.marker(
+                [-27.479004, 153.028853],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8b7eee883adf4c26a1c7eb3e3f4cd017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0bd0b08d8929429dbf1ce2132e2dfa2b.setIcon(icon_8b7eee883adf4c26a1c7eb3e3f4cd017);
+        
+    
+        var popup_a2707583445a4ff58c68a8ee4cff93df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99283ba7a1e4b01a9eb2752cce70af7 = $(`<div id="html_b99283ba7a1e4b01a9eb2752cce70af7" style="width: 100.0%; height: 100.0%;">19 - GARDENS POINT ROAD / ADJ. BRIDGE</div>`)[0];
+            popup_a2707583445a4ff58c68a8ee4cff93df.setContent(html_b99283ba7a1e4b01a9eb2752cce70af7);
+        
+
+        marker_0bd0b08d8929429dbf1ce2132e2dfa2b.bindPopup(popup_a2707583445a4ff58c68a8ee4cff93df)
+        ;
+
+        
+    
+    
+            var marker_d4ac4fbcb5a2458596656c6940f5077d = L.marker(
+                [-27.472291, 153.030639],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_e06410eaf14a414f868187170783f1a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d4ac4fbcb5a2458596656c6940f5077d.setIcon(icon_e06410eaf14a414f868187170783f1a5);
+        
+    
+        var popup_12468081bcdf4a11aa0b28f7ed05afb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e80d6c70917b4303979c29074508c65b = $(`<div id="html_e80d6c70917b4303979c29074508c65b" style="width: 100.0%; height: 100.0%;">6 - ALICE STREET / EDWARD STREET</div>`)[0];
+            popup_12468081bcdf4a11aa0b28f7ed05afb4.setContent(html_e80d6c70917b4303979c29074508c65b);
+        
+
+        marker_d4ac4fbcb5a2458596656c6940f5077d.bindPopup(popup_12468081bcdf4a11aa0b28f7ed05afb4)
+        ;
+
+        
+    
+    
+            var marker_37b2bd9407cd40ad9cb3f328d8caf115 = L.marker(
+                [-27.482081, 152.995804],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_b21c56b1e85347eaa336717e202ab26e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_37b2bd9407cd40ad9cb3f328d8caf115.setIcon(icon_b21c56b1e85347eaa336717e202ab26e);
+        
+    
+        var popup_97b016c67c5b4af89cee5ace9a1ed341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2476aef348a248c98efde292be9445f1 = $(`<div id="html_2476aef348a248c98efde292be9445f1" style="width: 100.0%; height: 100.0%;">142 - SYLVAN RD / CORONATION DR</div>`)[0];
+            popup_97b016c67c5b4af89cee5ace9a1ed341.setContent(html_2476aef348a248c98efde292be9445f1);
+        
+
+        marker_37b2bd9407cd40ad9cb3f328d8caf115.bindPopup(popup_97b016c67c5b4af89cee5ace9a1ed341)
+        ;
+
+        
+    
+    
+            var marker_15cdb99835384466885b5ffcbdd9f574 = L.marker(
+                [-27.478235, 153.015173],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ed74fa350548483db435d577fcda8447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_15cdb99835384466885b5ffcbdd9f574.setIcon(icon_ed74fa350548483db435d577fcda8447);
+        
+    
+        var popup_9cb2013c86c547cb85a1ef9993472107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8320cc03f175420997cd03b215219dca = $(`<div id="html_8320cc03f175420997cd03b215219dca" style="width: 100.0%; height: 100.0%;">101 - RUSSELL ST / EDMONDSTONE ST</div>`)[0];
+            popup_9cb2013c86c547cb85a1ef9993472107.setContent(html_8320cc03f175420997cd03b215219dca);
+        
+
+        marker_15cdb99835384466885b5ffcbdd9f574.bindPopup(popup_9cb2013c86c547cb85a1ef9993472107)
+        ;
+
+        
+    
+    
+            var marker_879b13833b844a61ac90e93e695fd37b = L.marker(
+                [-27.476792, 153.039186],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_22d2bbf82dd3467bbf48b486782bb5e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_879b13833b844a61ac90e93e695fd37b.setIcon(icon_22d2bbf82dd3467bbf48b486782bb5e2);
+        
+    
+        var popup_1261a6b4242848fd968fb1c593c3590b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bc7d226d0be4d669a38d1eec50e14c8 = $(`<div id="html_2bc7d226d0be4d669a38d1eec50e14c8" style="width: 100.0%; height: 100.0%;">131 - SHAFSTON AVE / THORN ST</div>`)[0];
+            popup_1261a6b4242848fd968fb1c593c3590b.setContent(html_2bc7d226d0be4d669a38d1eec50e14c8);
+        
+
+        marker_879b13833b844a61ac90e93e695fd37b.bindPopup(popup_1261a6b4242848fd968fb1c593c3590b)
+        ;
+
+        
+    
+    
+            var marker_25a8a24fa8f64a229a0556b6b5339dbd = L.marker(
+                [-27.474011, 153.014541],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_1261274ec89a479b9042239796c63a29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_25a8a24fa8f64a229a0556b6b5339dbd.setIcon(icon_1261274ec89a479b9042239796c63a29);
+        
+    
+        var popup_b9bcab97b90e4846bacaf2df513c6921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00519425be054b8d8b1e6b2abb3a32e6 = $(`<div id="html_00519425be054b8d8b1e6b2abb3a32e6" style="width: 100.0%; height: 100.0%;">99 - CORDELIA ST / PEEL ST</div>`)[0];
+            popup_b9bcab97b90e4846bacaf2df513c6921.setContent(html_00519425be054b8d8b1e6b2abb3a32e6);
+        
+
+        marker_25a8a24fa8f64a229a0556b6b5339dbd.bindPopup(popup_b9bcab97b90e4846bacaf2df513c6921)
+        ;
+
+        
+    
+    
+            var marker_ddc4fd018ac949e2a4481b250c200f7c = L.marker(
+                [-27.455472, 153.037775],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ae80f71a8b0d4be08abcf3cb9efcca5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ddc4fd018ac949e2a4481b250c200f7c.setIcon(icon_ae80f71a8b0d4be08abcf3cb9efcca5d);
+        
+    
+        var popup_ed4a36a76b7c4ae28f2fb7efe4b149fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_612285ca68524cc6bbef2f32ed1eeda2 = $(`<div id="html_612285ca68524cc6bbef2f32ed1eeda2" style="width: 100.0%; height: 100.0%;">58 - EAST ST / ANN ST</div>`)[0];
+            popup_ed4a36a76b7c4ae28f2fb7efe4b149fa.setContent(html_612285ca68524cc6bbef2f32ed1eeda2);
+        
+
+        marker_ddc4fd018ac949e2a4481b250c200f7c.bindPopup(popup_ed4a36a76b7c4ae28f2fb7efe4b149fa)
+        ;
+
+        
+    
+    
+            var marker_63928e811e154e12a714fb0a9a13789c = L.marker(
+                [-27.454746, 153.036154],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_ae65110ab70644dbbf43a5f3b3f965f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_63928e811e154e12a714fb0a9a13789c.setIcon(icon_ae65110ab70644dbbf43a5f3b3f965f6);
+        
+    
+        var popup_f0739214bc9d43f0a7d657190ce30c1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a008f463dca84f9b8715fc7db7051d2c = $(`<div id="html_a008f463dca84f9b8715fc7db7051d2c" style="width: 100.0%; height: 100.0%;">57 - BRIDGE ST / WICKHAM ST</div>`)[0];
+            popup_f0739214bc9d43f0a7d657190ce30c1a.setContent(html_a008f463dca84f9b8715fc7db7051d2c);
+        
+
+        marker_63928e811e154e12a714fb0a9a13789c.bindPopup(popup_f0739214bc9d43f0a7d657190ce30c1a)
+        ;
+
+        
+    
+    
+            var marker_5f337d9b345149d8bc3abdedd051b3ca = L.marker(
+                [-27.468678, 153.019801],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_307574cf0d424611952c0e810bd15534 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f337d9b345149d8bc3abdedd051b3ca.setIcon(icon_307574cf0d424611952c0e810bd15534);
+        
+    
+        var popup_516146b2eab74cb483bf7f0c00ed4a7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e33d4521510644b680778d00bd9b5bc2 = $(`<div id="html_e33d4521510644b680778d00bd9b5bc2" style="width: 100.0%; height: 100.0%;">32 - TANK ST / GEORGE ST</div>`)[0];
+            popup_516146b2eab74cb483bf7f0c00ed4a7a.setContent(html_e33d4521510644b680778d00bd9b5bc2);
+        
+
+        marker_5f337d9b345149d8bc3abdedd051b3ca.bindPopup(popup_516146b2eab74cb483bf7f0c00ed4a7a)
+        ;
+
+        
+    
+    
+            var marker_945b6fa703084bc2a656b22113e01aa7 = L.marker(
+                [-27.471422, 153.04519],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_f37e8c0686f84eee9b144c18e96e0161 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_945b6fa703084bc2a656b22113e01aa7.setIcon(icon_f37e8c0686f84eee9b144c18e96e0161);
+        
+    
+        var popup_716bfa134ba34e49b97ad70ed4db228b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a5e42ab5a2491fada9cbdf25b52422 = $(`<div id="html_91a5e42ab5a2491fada9cbdf25b52422" style="width: 100.0%; height: 100.0%;">86 - SYDNEY ST / MORAY ST</div>`)[0];
+            popup_716bfa134ba34e49b97ad70ed4db228b.setContent(html_91a5e42ab5a2491fada9cbdf25b52422);
+        
+
+        marker_945b6fa703084bc2a656b22113e01aa7.bindPopup(popup_716bfa134ba34e49b97ad70ed4db228b)
+        ;
+
+        
+    
+    
+            var marker_3a615d62de394c05a817f8bf12b6ba8c = L.marker(
+                [-27.46383, 153.029125],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_87a2e7f4e5ef4970bb02980b438d1e29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3a615d62de394c05a817f8bf12b6ba8c.setIcon(icon_87a2e7f4e5ef4970bb02980b438d1e29);
+        
+    
+        var popup_564a9d95de4e465298fc0b622f625bee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6efef227941940a6a95048a7bb370a20 = $(`<div id="html_6efef227941940a6a95048a7bb370a20" style="width: 100.0%; height: 100.0%;">41 - ANN ST / WHARF ST</div>`)[0];
+            popup_564a9d95de4e465298fc0b622f625bee.setContent(html_6efef227941940a6a95048a7bb370a20);
+        
+
+        marker_3a615d62de394c05a817f8bf12b6ba8c.bindPopup(popup_564a9d95de4e465298fc0b622f625bee)
+        ;
+
+        
+    
+    
+            var marker_eb50d2acd31d43c8b22571e817d0b07b = L.marker(
+                [-27.471886, 153.041854],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_61ea7b614502478aa3b96a03f1974f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eb50d2acd31d43c8b22571e817d0b07b.setIcon(icon_61ea7b614502478aa3b96a03f1974f23);
+        
+    
+        var popup_f968a4bfa7b34808a8d0200adc036074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b8831520aef4298b1c2185fdc9f4380 = $(`<div id="html_9b8831520aef4298b1c2185fdc9f4380" style="width: 100.0%; height: 100.0%;">81 - GRIFFITH ST / RIVERVIEW CT</div>`)[0];
+            popup_f968a4bfa7b34808a8d0200adc036074.setContent(html_9b8831520aef4298b1c2185fdc9f4380);
+        
+
+        marker_eb50d2acd31d43c8b22571e817d0b07b.bindPopup(popup_f968a4bfa7b34808a8d0200adc036074)
+        ;
+
+        
+    
+    
+            var marker_764a6421df1d4df08f0d3211febd5a5b = L.marker(
+                [-27.482082, 153.006981],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_2f19afca567e43219206daf503afd2aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_764a6421df1d4df08f0d3211febd5a5b.setIcon(icon_2f19afca567e43219206daf503afd2aa);
+        
+    
+        var popup_ec4e1336fc3d4227a190bf3940ff95fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36aebc658b2f440da6b38b34bc5e54d0 = $(`<div id="html_36aebc658b2f440da6b38b34bc5e54d0" style="width: 100.0%; height: 100.0%;">104 - HARDGRAVE RD / SKINNER ST</div>`)[0];
+            popup_ec4e1336fc3d4227a190bf3940ff95fb.setContent(html_36aebc658b2f440da6b38b34bc5e54d0);
+        
+
+        marker_764a6421df1d4df08f0d3211febd5a5b.bindPopup(popup_ec4e1336fc3d4227a190bf3940ff95fb)
+        ;
+
+        
+    
+    
+            var marker_16a877cdf348497290304aeb763f4c6b = L.marker(
+                [-27.467037, 153.018471],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_6e52485fd569409ab33ee1605327a08e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_16a877cdf348497290304aeb763f4c6b.setIcon(icon_6e52485fd569409ab33ee1605327a08e);
+        
+    
+        var popup_5022d537548045a0a2417d2614bda077 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b45433e531c1439884136abb7d328f89 = $(`<div id="html_b45433e531c1439884136abb7d328f89" style="width: 100.0%; height: 100.0%;">34 - MAKERSTON ST / ROMA ST</div>`)[0];
+            popup_5022d537548045a0a2417d2614bda077.setContent(html_b45433e531c1439884136abb7d328f89);
+        
+
+        marker_16a877cdf348497290304aeb763f4c6b.bindPopup(popup_5022d537548045a0a2417d2614bda077)
+        ;
+
+        
+    
+    
+            var marker_87e473f1c94c4d239d018858f11a5316 = L.marker(
+                [-27.471712, 153.013188],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_52df2d2ac5af403c8b0a00846c52de79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_87e473f1c94c4d239d018858f11a5316.setIcon(icon_52df2d2ac5af403c8b0a00846c52de79);
+        
+    
+        var popup_27dd1acb7124455cbe2594dae799ae7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_415eea610caf4a0f9e78a5c83a0fcc48 = $(`<div id="html_415eea610caf4a0f9e78a5c83a0fcc48" style="width: 100.0%; height: 100.0%;">128 - BOUQUET ST / MONTAGUE RD</div>`)[0];
+            popup_27dd1acb7124455cbe2594dae799ae7b.setContent(html_415eea610caf4a0f9e78a5c83a0fcc48);
+        
+
+        marker_87e473f1c94c4d239d018858f11a5316.bindPopup(popup_27dd1acb7124455cbe2594dae799ae7b)
+        ;
+
+        
+    
+    
+            var marker_eb5d5ddff21e45e4a139124b75e448e2 = L.marker(
+                [-27.469183, 153.024719],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d497d944ff244127b280b312152f5067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_eb5d5ddff21e45e4a139124b75e448e2.setIcon(icon_d497d944ff244127b280b312152f5067);
+        
+    
+        var popup_ffee9a58e40f4cf2ae0a2bbe31627b7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184245a149084d429abf7ee54aeac926 = $(`<div id="html_184245a149084d429abf7ee54aeac926" style="width: 100.0%; height: 100.0%;">13 - ALBERT STREET MALL / ADELAIDE STREET</div>`)[0];
+            popup_ffee9a58e40f4cf2ae0a2bbe31627b7a.setContent(html_184245a149084d429abf7ee54aeac926);
+        
+
+        marker_eb5d5ddff21e45e4a139124b75e448e2.bindPopup(popup_ffee9a58e40f4cf2ae0a2bbe31627b7a)
+        ;
+
+        
+    
+    
+            var marker_1711173293254176ab5647ab58949866 = L.marker(
+                [-27.466307, 153.017351],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_fab6766bce184e18ba583b0125a2f00f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1711173293254176ab5647ab58949866.setIcon(icon_fab6766bce184e18ba583b0125a2f00f);
+        
+    
+        var popup_8e61744fd36043c5b1c28c88b97c8ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d49189fc8ce5488a86bd7cdbb0fee9d4 = $(`<div id="html_d49189fc8ce5488a86bd7cdbb0fee9d4" style="width: 100.0%; height: 100.0%;">36 - ROMA STREET / GARRICK STREET</div>`)[0];
+            popup_8e61744fd36043c5b1c28c88b97c8ef7.setContent(html_d49189fc8ce5488a86bd7cdbb0fee9d4);
+        
+
+        marker_1711173293254176ab5647ab58949866.bindPopup(popup_8e61744fd36043c5b1c28c88b97c8ef7)
+        ;
+
+        
+    
+    
+            var marker_761d548df809434399950cf9abca55c2 = L.marker(
+                [-27.472413, 153.001803],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_2e4555f1f80a409cb449bab212d076b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_761d548df809434399950cf9abca55c2.setIcon(icon_2e4555f1f80a409cb449bab212d076b5);
+        
+    
+        var popup_f80d0455d6464b75929b2ec5a8489642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19a55e4b923844039459d639c4e4ce2f = $(`<div id="html_19a55e4b923844039459d639c4e4ce2f" style="width: 100.0%; height: 100.0%;">137 - KILROE ST / DORSEY ST</div>`)[0];
+            popup_f80d0455d6464b75929b2ec5a8489642.setContent(html_19a55e4b923844039459d639c4e4ce2f);
+        
+
+        marker_761d548df809434399950cf9abca55c2.bindPopup(popup_f80d0455d6464b75929b2ec5a8489642)
+        ;
+
+        
+    
+    
+            var marker_b96765b873b94aff8c3861640d754640 = L.marker(
+                [-27.463431, 153.041031],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_66f3d513355d46f0842329e508237325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b96765b873b94aff8c3861640d754640.setIcon(icon_66f3d513355d46f0842329e508237325);
+        
+    
+        var popup_9e7278fba32b45229f0b2de0214ff0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4151c08246b4af189f4322177278c04 = $(`<div id="html_a4151c08246b4af189f4322177278c04" style="width: 100.0%; height: 100.0%;">79 - BALFOUR ST / BRUNSWICK ST</div>`)[0];
+            popup_9e7278fba32b45229f0b2de0214ff0b7.setContent(html_a4151c08246b4af189f4322177278c04);
+        
+
+        marker_b96765b873b94aff8c3861640d754640.bindPopup(popup_9e7278fba32b45229f0b2de0214ff0b7)
+        ;
+
+        
+    
+    
+            var marker_28c5edc5af6447dab6a0c0953b322272 = L.marker(
+                [-27.46588, 153.026861],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_9a8a0696752b4b28b37cf292330cb7a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_28c5edc5af6447dab6a0c0953b322272.setIcon(icon_9a8a0696752b4b28b37cf292330cb7a4);
+        
+    
+        var popup_3ede366bd682409a87e6904ea5ce9b28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4498a92b7754415bae586c2e82c20788 = $(`<div id="html_4498a92b7754415bae586c2e82c20788" style="width: 100.0%; height: 100.0%;">38 - ANN ST / CREEK ST</div>`)[0];
+            popup_3ede366bd682409a87e6904ea5ce9b28.setContent(html_4498a92b7754415bae586c2e82c20788);
+        
+
+        marker_28c5edc5af6447dab6a0c0953b322272.bindPopup(popup_3ede366bd682409a87e6904ea5ce9b28)
+        ;
+
+        
+    
+    
+            var marker_44a6f5907dd74d0cbfaf4b618e423443 = L.marker(
+                [-27.47011, 153.025627],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_0b9d0734debc438c9a57bde46227ce15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_44a6f5907dd74d0cbfaf4b618e423443.setIcon(icon_0b9d0734debc438c9a57bde46227ce15);
+        
+    
+        var popup_5aa9e2e9a1294cfdb9ea37e0a55c03e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a07898c10a774563abad2e08fe379e66 = $(`<div id="html_a07898c10a774563abad2e08fe379e66" style="width: 100.0%; height: 100.0%;">14 - ALBERT STREET MALL / ELIZABETH STREET</div>`)[0];
+            popup_5aa9e2e9a1294cfdb9ea37e0a55c03e2.setContent(html_a07898c10a774563abad2e08fe379e66);
+        
+
+        marker_44a6f5907dd74d0cbfaf4b618e423443.bindPopup(popup_5aa9e2e9a1294cfdb9ea37e0a55c03e2)
+        ;
+
+        
+    
+    
+            var marker_2bd337efb53a4a9087ccdbb9a6db44a6 = L.marker(
+                [-27.462665, 153.029087],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_d5d329883cf8451bbbecf6f769a69c1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2bd337efb53a4a9087ccdbb9a6db44a6.setIcon(icon_d5d329883cf8451bbbecf6f769a69c1b);
+        
+    
+        var popup_b608e0cfe7a7445abcccab7f90312322 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d8fb154ab734507bc43cc45e2eed61e = $(`<div id="html_3d8fb154ab734507bc43cc45e2eed61e" style="width: 100.0%; height: 100.0%;">45 - TURBOT ST / BOWEN ST</div>`)[0];
+            popup_b608e0cfe7a7445abcccab7f90312322.setContent(html_3d8fb154ab734507bc43cc45e2eed61e);
+        
+
+        marker_2bd337efb53a4a9087ccdbb9a6db44a6.bindPopup(popup_b608e0cfe7a7445abcccab7f90312322)
+        ;
+
+        
+    
+    
+            var marker_bd867fe1242c46009403ec82a5dace39 = L.marker(
+                [-27.46812, 153.02682],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_8fdf9d70a8d1429781509f822ef4b6e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bd867fe1242c46009403ec82a5dace39.setIcon(icon_8fdf9d70a8d1429781509f822ef4b6e9);
+        
+    
+        var popup_c9f4e490a7e54374a96af35949c3f146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deab0e08c2524b45a04692f1accdd7dd = $(`<div id="html_deab0e08c2524b45a04692f1accdd7dd" style="width: 100.0%; height: 100.0%;">1 - EDWARD ST / QUEEN ST</div>`)[0];
+            popup_c9f4e490a7e54374a96af35949c3f146.setContent(html_deab0e08c2524b45a04692f1accdd7dd);
+        
+
+        marker_bd867fe1242c46009403ec82a5dace39.bindPopup(popup_c9f4e490a7e54374a96af35949c3f146)
+        ;
+
+        
+    
+    
+            var marker_1963039d7a744cc1aa12d09e0438128f = L.marker(
+                [-27.481137, 153.019284],
+                {}
+            ).addTo(map_5efc4b2979684e118a415ba06004b0a0);
+        
+    
+            var icon_6a8f8a9d4f404e0fbc0a182b12110a75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "yellow", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1963039d7a744cc1aa12d09e0438128f.setIcon(icon_6a8f8a9d4f404e0fbc0a182b12110a75);
+        
+    
+        var popup_80158df1fe9a444c925ace1cc4f90407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a89abf0d22d04f79863b8d5f744a3706 = $(`<div id="html_a89abf0d22d04f79863b8d5f744a3706" style="width: 100.0%; height: 100.0%;">116 - CORDELIA ST / ERNEST ST</div>`)[0];
+            popup_80158df1fe9a444c925ace1cc4f90407.setContent(html_a89abf0d22d04f79863b8d5f744a3706);
+        
+
+        marker_1963039d7a744cc1aa12d09e0438128f.bindPopup(popup_80158df1fe9a444c925ace1cc4f90407)
+        ;
+
+        
+    
+</script>
