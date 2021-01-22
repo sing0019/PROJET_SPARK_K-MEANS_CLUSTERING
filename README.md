@@ -5,7 +5,7 @@ L'objectif principal de ce projet est de proposer un k-means clustering de Brisb
 Assurez - Vous d'étre dans le bon ficher <br>
 -  Lancement du porgramme : ouvrir un invité de commande et taper la commande suivante :
 
-```spark-submit K-means.py```
+```spark-submit k-means.py```
 
 -----------------------------------------------------------------------
 
