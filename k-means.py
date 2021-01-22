@@ -3,7 +3,7 @@
 """
 Created on Wed Jan 20 18:25:43 2021
 
-@author: singaresekou
+@author: singaresekou et gueyelamine
 """
 
 #### Importation des librairies
@@ -82,7 +82,7 @@ data = fitted.toPandas()
 data['name'] = bristol.select("name").toPandas()
 data.head(5)
 
-#Define coordinates of where we want to center our map
+# Définition des coordonnées pour centrer la carte
 meanlat = data['latitude'].mean()
 meanlong = data['longitude'].mean()
 
@@ -109,7 +109,7 @@ map_velo.save(output_map)
 # Visualisation
 map_velo
 
-#Add markers to the map
+#Ajout des centres des clusters sur la carte
 folium.Marker([-27.460240636363633, 153.04186302272726], popup = 'centre cluster 3', 
               icon=folium.Icon(color = 'red', icon='bicycle', prefix='fa')).add_to(map_velo)
 
