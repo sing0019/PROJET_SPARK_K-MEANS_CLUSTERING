@@ -15,8 +15,7 @@ Le fichier Brisbane-city-bike.json (notre base de données) contient des informa
   - Longitude
   - name
   - number
-
------------------------------------------------------------------------
+  
 Les 5 premières observations sont données dans le tableau suivant :
 
 |             address|  latitude| longitude|                name|number|
@@ -26,6 +25,8 @@ Les 5 premières observations sont données dans le tableau suivant :
 |Sydney St Ferry T...|-27.474531|153.042728|88 - SYDNEY ST FE...|    88|
 |Browne St / James St|-27.461881|153.046986|75 - BROWNE ST / ...|    75|
 |Kurilpa Point / M...|-27.469658|153.016696|98 - KURILPA POIN...|    98|
+
+-----------------------------------------------------------------------
 
 ### Résultat du K-mean
 
@@ -45,8 +46,11 @@ Les longitudes et latitudes moyennes de chaque groupe sont données par le table
 |   153.02594553125| -27.47255990624999 |      Centre|
 |153.00572882926832|-27.481218536585374 |      Ouest |
 
+-----------------------------------------------------------------------
+## Visualisation
+
 Sur l'image ci-dessous nous avons la cartographie de l'emplacement des vélos en fonction de leur groupe.
 
 ![Visualisation](https://user-images.githubusercontent.com/56762162/105491924-6e0c4300-5cb7-11eb-89eb-6f1c29b23d09.jpg)
 
-La version interactive de la carte est disponible en <a href="file:///C:/Users/uc/Desktop/MasterSEP/BigData/Projet%20K-means/exported/carte_velo_brisbane.html" target="_blank">cliquant ici</a>
+Sur la carte, on voit bien l'emplacement des vélos en fonction de leur groupe d'appartenance obtenu via la méthode des K-means. Vous pouvez consulter la version interactive de la carte est disponible en <a href="https://github.com/sing0019/PROJET_SPARK_K-MEANS_CLUSTERING/blob/master/exported/carte_velo_brisbane.html" target="_blank">cliquant ici</a>
