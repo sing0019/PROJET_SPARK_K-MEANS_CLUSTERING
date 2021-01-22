@@ -6,6 +6,7 @@ Assurez - Vous d'étre dans le bon ficher <br>
 -  Lancement du porgramme : ouvrir un invité de commande et taper la commande suivante :
 
 ```spark-submit K-means.py```
+
 -----------------------------------------------------------------------
 
 ## Description de la base de données
