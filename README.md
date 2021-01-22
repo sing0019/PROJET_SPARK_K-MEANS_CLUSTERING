@@ -2,7 +2,7 @@
 L'objectif principal de ce projet est de proposer un k-means clustering de Brisbane City Bike en fonction de l'emplacement des stations vélos en utilisant spark.
 
 ## Lancer le programme.
-Assurez - Vous d'étre dans le bon ficher <br>
+Assurez - Vous d'étre dans le bon fichier <br>
 -  Lancement du porgramme : ouvrir un invité de commande et taper la commande suivante :
 
 ```spark-submit k-means.py```
@@ -55,4 +55,4 @@ Sur l'image ci-dessous nous avons la cartographie de l'emplacement des vélos en
 
 ![Visualisation](https://user-images.githubusercontent.com/56762162/105491924-6e0c4300-5cb7-11eb-89eb-6f1c29b23d09.jpg)
 
-Sur la carte, on voit bien l'emplacement des vélos en fonction de leur groupe d'appartenance obtenu via la méthode des K-means. Vous pouvez consulter la version interactive de la carte est disponible en <a href="https://ghcdn.rawgit.org/sing0019/PROJET_SPARK_K-MEANS_CLUSTERING/master/exported/carte_velo_brisbane.html" target="_blank">cliquant ici</a>
+Sur la carte, on voit bien l'emplacement des vélos en fonction de leur groupe d'appartenance obtenu via la méthode des K-means. Vous pouvez consulter la version interactive de la carte est disponible en <a href="https://ghcdn.rawgit.org/sing0019/PROJET_SPARK_K-MEANS_CLUSTERING/master/exported/carte_velo_brisbane.html" target="_blank">cliquant ici</a>.
